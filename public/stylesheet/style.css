@@ -1,0 +1,98 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    /* Adjust height to 75% of viewport height */
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    /* Optional: to darken the video */
+}
+
+.navbar-custom {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Shadow for contrast */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important;
+    /* White text */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+    color: #ddd !important;
+    /* Light grey on hover/focus */
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: large;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+div.gallary {
+    width: 100%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+div.gallary-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+div.grid-item>img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 700px) {
+    div.gallary-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 2%;
+    }
+}
+
+@media (max-width: 500px) {
+    div.gallary-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 2fr;
+        gap: 2%;
+    }
+}
