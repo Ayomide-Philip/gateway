@@ -7,7 +7,8 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  req.route.path == "/" ? console.log(true) : console.log(false);
+  var userRoute;
+  req.route.path == "/" ? (userRoute = "Home") : null;
   res.render("index.ejs");
 });
 
