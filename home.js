@@ -7,6 +7,9 @@ const welcome = {
   button: { name: "About Us", url: "/history" },
 };
 
-const newsLetter = {};
+const newsLetter = {
+  heading: "Sign up for our weekly newsletter",
+};
 
 export default welcome;
+export { newsLetter };
