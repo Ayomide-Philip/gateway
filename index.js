@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import morgan from "morgan";
-import welcome from "./home.js";
+import welcome, { newsLetter } from "./home.js";
 
 const app = express();
 const port = 3000;
@@ -11,7 +11,11 @@ var userRoute;
 
 app.get("/", (req, res) => {
   req.route.path == "/" ? (userRoute = "Home") : null;
-  res.render("index.ejs", { userRoute: userRoute, welcome: welcome });
+  res.render("index.ejs", {
+    userRoute: userRoute,
+    welcome: welcome,
+    newsLetter: newsLetter,
+  });
 });
 
 app.get("/children", (req, res) => {
