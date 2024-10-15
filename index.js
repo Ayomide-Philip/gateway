@@ -6,40 +6,61 @@ const app = express();
 const port = 3000;
 app.use(express.static("public"));
 
-app.get("/", (req, res) => {
   var userRoute;
+
+app.get("/", (req, res) => {
   req.route.path == "/" ? (userRoute = "Home") : null;
   res.render("index.ejs");
 });
 
 app.get("/children", (req, res) => {
-  var userRoute;
   req.route.path == "/children" ? (userRoute = "Children") : null;
   res.render("children.ejs");
 });
 
 app.get("/contact", (req, res) => {
-  var userRoute;
   req.route.path == "/contact" ? (userRoute = "Contact") : null;
   res.render("contact.ejs");
 });
 
 app.get("/donate", (req, res) => {
-  var userRoute;
   req.route.path == "/donate" ? (userRoute = "Donate") : null;
   res.render("donate.ejs");
 });
 
 app.get("/event", (req, res) => {
-  var userRoute;
   req.route.path == "/event" ? (userRoute = "Events") : null;
   res.render("events.ejs");
 });
 
 app.get("/get-involved", (req, res) => {
-  var userRoute;
   req.route.path == "/get-involved" ? (userRoute = "Get Involved") : null;
   res.render("getInvolved.ejs");
+});
+
+app.get("/history", (req, res) => {
+  req.route.path == "/history" ? (userRoute = "History") : null;
+  res.render("history.ejs");
+});
+
+app.get("/mission", (req, res) => {
+  req.route.path == "/mission" ? (userRoute = "Mission") : null;
+  res.render("mission.ejs");
+});
+
+app.get("/sermon", (req, res) => {
+  req.route.path == "/sermon" ? (userRoute = "Sermon") : null;
+  res.render("sermon.ejs");
+});
+
+app.get("/service", (req, res) => {
+  req.route.path == "/service" ? (userRoute = "Service") : null;
+  res.render("service.ejs");
+});
+
+app.get("/teenager", (req, res) => {
+  req.route.path == "/teenager" ? (userRoute = "Teenager") : null;
+  res.render("teenager.ejs");
 });
 
 app.listen(port, () => {
