@@ -24,6 +24,24 @@ app.get("/contact", (req, res) => {
   res.render("contact.ejs");
 });
 
+app.get("/donate", (req, res) => {
+  var userRoute;
+  req.route.path == "/donate" ? (userRoute = "Donate") : null;
+  res.render("donate.ejs");
+});
+
+app.get("/event", (req, res) => {
+  var userRoute;
+  req.route.path == "/event" ? (userRoute = "Events") : null;
+  res.render("events.ejs");
+});
+
+app.get("/get-involved", (req, res) => {
+  var userRoute;
+  req.route.path == "/get-involved" ? (userRoute = "Get Involved") : null;
+  res.render("getInvolved.ejs");
+});
+
 app.listen(port, () => {
   console.log(`http://localhost:${port}`);
 });
