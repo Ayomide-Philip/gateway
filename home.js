@@ -14,5 +14,19 @@ const newsLetter = {
     "We have an amazing church, and every week we send you stories that highlight the hearts of our members living out God’s plan to share his love with people around us.",
 };
 
+const statementOfFaiths = {
+  heading: "Statement Of Faith",
+  paragraph: "At Gateway Baptist Church, we believe:",
+  statementOfFaith: [
+    {
+      id: "One",
+      heading: "In the Triune God",
+      strongText: "We believe in one God,",
+      paragraph:
+        "eternally existing in three persons: Father, Son, and Holy Spirit, each fully God yet distinct in role and function.We affirm the biblical teaching  that God is one essence existing in three distinct persons. The Father, Son (Jesus Christ), and Holy Spirit are co-eternal and co-equal, each playing a unique role in creation, redemption, and sustaining the universe.",
+    },
+  ],
+};
+
 export default welcome;
-export { newsLetter };
+export { newsLetter, statementOfFaiths };
