@@ -7,4 +7,6 @@ const welcome = {
   button: { name: "About Us", url: "/history" },
 };
 
+const newsLetter = {};
+
 export default welcome;
