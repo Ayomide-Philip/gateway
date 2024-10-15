@@ -9,6 +9,7 @@ const welcome = {
 
 const newsLetter = {
   heading: "Sign up for our weekly newsletter",
+  subHeading: "The Good Stuff.",
   paragraph:
     "We have an amazing church, and every week we send you stories that highlight the hearts of our members living out God’s plan to share his love with people around us.",
 };
