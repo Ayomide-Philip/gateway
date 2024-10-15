@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import morgan from "morgan";
-import welcome, { newsLetter } from "./home.js";
+import welcome, { newsLetter, statementOfFaiths } from "./home.js";
 
 const app = express();
 const port = 3000;
@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
     userRoute: userRoute,
     welcome: welcome,
     newsLetter: newsLetter,
+    statementOfFaiths: statementOfFaiths,
   });
 });
 
