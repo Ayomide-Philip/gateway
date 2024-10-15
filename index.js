@@ -6,11 +6,11 @@ const app = express();
 const port = 3000;
 app.use(express.static("public"));
 
-  var userRoute;
+var userRoute;
 
 app.get("/", (req, res) => {
   req.route.path == "/" ? (userRoute = "Home") : null;
-  res.render("index.ejs");
+  res.render("index.ejs", { userRoute: userRoute });
 });
 
 app.get("/children", (req, res) => {
@@ -28,8 +28,8 @@ app.get("/donate", (req, res) => {
   res.render("donate.ejs");
 });
 
-app.get("/event", (req, res) => {
-  req.route.path == "/event" ? (userRoute = "Events") : null;
+app.get("/events", (req, res) => {
+  req.route.path == "/events" ? (userRoute = "Events") : null;
   res.render("events.ejs");
 });
 
