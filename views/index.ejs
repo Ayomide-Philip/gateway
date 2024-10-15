@@ -543,14 +543,15 @@
                     <h2>
                         <%= newsLetter.heading %>
                     </h2>
-                    <h2 style="color: blue;">The Good Stuff.</h2>
-                    <p></p>
-                    <form class="row g-3 needs-validation" action="./contact.html">
+                    <h2 style="color: blue;">
+                        <%= newsLetter.subHeading %>
+                    </h2>
+                    <p>
+                        <%= newsLetter.paragraph %>
+                    </p>
+                    <form class="row g-3 needs-validation" action="/contact">
                         <div class="col-md-9">
                             <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                            <div class="invalid-feedback">
-                                Please provide a valid email address.
-                            </div>
                         </div>
                         <div class="col-md-3">
                             <button type="submit" class="btn btn-primary w-100">Subscribe</button>
