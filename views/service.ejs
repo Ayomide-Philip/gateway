@@ -43,14 +43,35 @@
                     </div>
                 </div>
                 <% }) %>
-           </div>
+        </div>
     </div>
     <!-- ========== End Section of the sunday activies in the church ========== -->
     <!-- ========== Start Section of the monday activities ========== -->
     <div class="container-fluid pt-5 pb-5 mb-5">
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            
-            <div class="col">
+            <% service.mondayService.map((mondayService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= mondayService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= mondayService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= mondayService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= mondayService.footer %>
+                        </div>
+                    </div>
+                </div>
+                <% }) %>
+                    <!-- <div class="col">
                 <div class="card text-center">
                     <div class="card-header">
                         <h2 class="h3"><strong>Monday Activites</strong></h2>
@@ -129,7 +150,8 @@
                         5:00 pm
                     </div>
                 </div>
-            </div>
+            </div> -->
+
         </div>
     </div>
     <!-- ========== End Section of the monday activities ========== -->
