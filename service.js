@@ -26,6 +26,27 @@ const service = {
       footer: "10:00 am - 12:00 noon",
     },
   ],
+  mondayService: [
+    {
+      header: "Monday Activites",
+      title: "Early Morning Prayer",
+      text: "Our Early Morning Prayer offers a peaceful start to the day, with communal prayers, worship, and reflection. Join us to seek spiritual renewal and blessings for the day ahead.",
+      footer: "6:00am",
+    },
+
+    {
+      header: "Monday Activites",
+      title: "M.M.U Fellowship",
+      text: "The M.M.U Fellowship is a dynamic men's ministry fostering spiritual growth, and community service. Join us for engaging discussions, worship, and opportunities to serve and support each other in faith.",
+      footer: "5:00 pm",
+    },
+    {
+      header: "Monday Activites",
+      title: "W.M.U Fellowship",
+      text: "The W.M.U Fellowship is a vibrant women's ministry focused on spiritual growth, and service. Join us for  worship, inspiring discussions, and community outreach, empowering women in their faith journey.",
+      footer: "5:00 pm",
+    },
+  ],
 };
 
 export default service;
