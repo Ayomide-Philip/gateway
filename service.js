@@ -54,6 +54,13 @@ const service = {
       text: "Lydia Fellowship is a nurturing women's group dedicated to spiritual growth, and community service. Join us for enriching discussions,and community activities, empowering girls in their faith journey.",
       footer: "5:00 pm",
     },
+
+    {
+      header: "Monday Activites",
+      title: "Discipleship Programme",
+      text: "Our Discipleship Programme offers in-depth spiritual training, mentorship, and Bible study to nurture and equip believers in their faith journey. Join us to grow in knowledge, character, and service.",
+      footer: "5:00 pm",
+    },
   ],
 };
 
