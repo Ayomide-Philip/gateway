@@ -2,6 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import morgan from "morgan";
 import welcome, { newsLetter, statementOfFaiths } from "./home.js";
+import service from "./service.js";
 
 const app = express();
 const port = 3000;
@@ -61,7 +62,7 @@ app.get("/sermon", (req, res) => {
 
 app.get("/service", (req, res) => {
   req.route.path == "/service" ? (userRoute = "Service") : null;
-  res.render("service.ejs", { userRoute: userRoute });
+  res.render("service.ejs", { userRoute: userRoute, service: service });
 });
 
 app.get("/teenager", (req, res) => {
