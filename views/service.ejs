@@ -21,7 +21,30 @@
             <%= service.topHeading %>
         </h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <div class="col">
+            <% service.sundayService.map((sundayService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= sundayService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= sundayService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= sundayService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= sundayService.footer %>
+                        </div>
+                    </div>
+                </div>
+                <% }) %>
+                    <!--
+                 <div class="col">
                 <div class="card text-center">
                     <div class="card-header">
                         <h2 class="h3"><strong>Sunday Service</strong></h2>
@@ -84,7 +107,7 @@
                         10:00 am - 12:00 noon
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- ========== End Section of the sunday activies in the church ========== -->
