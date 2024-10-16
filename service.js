@@ -40,10 +40,18 @@ const service = {
       text: "The M.M.U Fellowship is a dynamic men's ministry fostering spiritual growth, and community service. Join us for engaging discussions, worship, and opportunities to serve and support each other in faith.",
       footer: "5:00 pm",
     },
+
     {
       header: "Monday Activites",
       title: "W.M.U Fellowship",
       text: "The W.M.U Fellowship is a vibrant women's ministry focused on spiritual growth, and service. Join us for  worship, inspiring discussions, and community outreach, empowering women in their faith journey.",
+      footer: "5:00 pm",
+    },
+
+    {
+      header: "Monday Activites",
+      title: "Lydia Fellowship",
+      text: "Lydia Fellowship is a nurturing women's group dedicated to spiritual growth, and community service. Join us for enriching discussions,and community activities, empowering girls in their faith journey.",
       footer: "5:00 pm",
     },
   ],
