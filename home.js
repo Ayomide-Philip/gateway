@@ -50,6 +50,22 @@ const statementOfFaiths = {
       paragraph:
         ", through faith in Jesus Christ alone, and not by our own works or merit. Salvation is a gift of God's grace, received through faith in Jesus Christ. It is not earned through good works or human effort but is freely given  to all who believe in Christ as Savior and Lord. ",
     },
+
+    {
+      id: "Five",
+      heading: "In the Holy Spirit",
+      strongText: "We believe in the personhood and work of the Holy Spirit",
+      paragraph:
+        ", who convicts of sin, regenerates, indwells, and empowers believers for Christian life and service.The Holy Spirit  is the third person of the Trinity, who dwells within every believer, empowering them for Christian living, guiding them into truth, and equipping them with spiritual gifts for ministry.",
+    },
+
+    {
+      id: "Six",
+      heading: "In the Church",
+      strongText: ">We believe in the universal Church,",
+      paragraph:
+        " the body of Christ, composed of all  believers, and in the local church as a community of faith and fellowship for worship,  edification, and mission. The Church is the community of all believers worldwide, united  by their faith in Jesus Christ. Local churches gather for worship, teaching, mutual support,  and to  fulfill the Great Commission.",
+    },
   ],
 };
 
