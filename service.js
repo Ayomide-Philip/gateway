@@ -98,6 +98,26 @@ const service = {
       footer: "5:00pm - 6:00pm",
     },
   ],
+  fridayService: [
+    {
+      header: "Friday Activities",
+      title: "Sunday School Teachers Preparatory Class",
+      text: "Equipping educators with tools and wisdom to nurture young minds in faith, fostering a vibrant learning environment rooted in love and truth.",
+      footer: "5:00pm",
+    },
+    {
+      header: "Friday Activities",
+      title: "Baptist Students Fellowship",
+      text: "Building community among students through faith, fellowship, and service, empowering young believers to grow spiritually and impact their campus and beyond.",
+      footer: "5:30 pm",
+    },
+    {
+      header: "Friday Activities",
+      title: "Sanctuary Choir",
+      text: "Elevating worship with harmonious melodies and heartfelt devotion, uniting voices in praise to uplift congregations and glorify God.",
+      footer: "06:00pm",
+    },
+  ],
 };
 
 export default service;
