@@ -158,6 +158,42 @@ const service = {
       text: "The Pastor & Deacon Fellowship fosters leadership and spiritual growth among church leaders. It provides a platform for pastors and deacons to pray, share insights, and support each other in their ministry roles.",
       footer: "Monthly",
     },
+    {
+      header: "Monthly Opportunities",
+      title: "Church E.C Meeting",
+      text: "The Church E.C. Meeting is a crucial gathering for church leaders to discuss strategic planning, ministry updates, and community initiatives. It fosters collaboration and ensures the smooth functioning of church activities and goals.",
+      footer: "Every 3rd Saturday of the Month",
+    },
+    {
+      header: "Monthly Opportunities",
+      title: "E.B.A Pastors Fellowship",
+      text: "The E.B.A Pastors Fellowship brings together pastors from various churches for mutual encouragement, spiritual growth, and collaboration. It provides a platform for sharing insights, praying together, and fostering unity among church leaders.",
+      footer: "Every 2nd Tuesday of the Month",
+    },
+    {
+      header: "Monthly Opportunities",
+      title: "Night of Encounter",
+      text: "Night of Encounter is a powerful worship event focused on experiencing God's presence through prayer, worship, and spiritual breakthroughs. Join us for a transformative evening of faith and divine encounters.",
+      footer: "Every last Friday of the Month",
+    },
+    {
+      header: "Monthly Opportunities",
+      title: "Child Dedication",
+      text: "Child Dedication is a special ceremony where parents present their child to God, committing to raise them in a faith-filled home. It’s a joyous occasion for the church community to support and pray for the family.",
+      footer: "Every 2nd Sunday of the Month",
+    },
+    {
+      header: "Monthly Opportunities",
+      title: "Family Thanksgiving",
+      text: "Family Thanksgiving is a joyful celebration where families gather to express gratitude for God's blessings. It's a time for communal worship, sharing testimonies, and giving thanks together for the year's blessings and milestones.",
+      footer: "Every last Sunday of the Month",
+    },
+    {
+      header: "Monthly Opportunities",
+      title: "Single Retreat",
+      text: "The Single Retreat is a rejuvenating event designed for singles to grow spiritually, build community, and enjoy enriching activities. Join us for inspiring sessions, fellowship, and personal growth opportunities in a supportive environment.",
+      footer: "Every 3rd Saturday of the Month",
+    },
   ],
 };
 
