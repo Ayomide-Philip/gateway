@@ -3,6 +3,7 @@ import bodyParser from "body-parser";
 import morgan from "morgan";
 import welcome, { newsLetter, statementOfFaiths } from "./home.js";
 import service from "./service.js";
+import requireIp from "request-ip";
 
 const app = express();
 const port = 3000;
@@ -10,10 +11,16 @@ app.use(express.static("public"));
 
 var userRoute;
 
-app.use(morgan("dev"));
+const ipLogger = function (req, res, next) {
+  console.log(requireIp.getClientIp(req));
+  next();
+};
+
+// app.use(morgan("combined"));
+// app.use(ipLogger);
 
 app.get("/", (req, res) => {
-  console.log(req);
+  console.log(req.headers);
   req.route.path == "/" ? (userRoute = "Home") : null;
   res.render("index.ejs", {
     userRoute: userRoute,
