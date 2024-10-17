@@ -138,6 +138,27 @@ const service = {
       footer: "06:00pm",
     },
   ],
+  monthTopHeading: "Monthly Opportunities.",
+  monthlyService: [
+    {
+      header: "Monthly Opportunities",
+      title: "Youth Fellowship",
+      text: "Our Youth Fellowship is a dynamic group for young people to grow in faith, connect with peers, and serve the community. Join us for engaging worship, Bible study, and fun activities.",
+      footer: "Every 1st sunday of the Month",
+    },
+    {
+      header: "Monthly Opportunities",
+      title: "Youth Prayer",
+      text: "Youth Prayer provides a dedicated time for young people to connect with God through prayer, worship, and reflection. Join us to deepen your faith, seek guidance, and find spiritual support.",
+      footer: "Every 3rd Thursday of the Month",
+    },
+    {
+      header: "Monthly Opportunities",
+      title: "Pastor & Deacon Fellowship",
+      text: "The Pastor & Deacon Fellowship fosters leadership and spiritual growth among church leaders. It provides a platform for pastors and deacons to pray, share insights, and support each other in their ministry roles.",
+      footer: "Monthly",
+    },
+  ],
 };
 
 export default service;
