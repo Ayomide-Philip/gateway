@@ -101,7 +101,7 @@ const service = {
   fridayService: [
     {
       header: "Friday Activities",
-      title: "Sunday School Teachers Preparatory Class",
+      title: "Sunday School Preparatory Class",
       text: "Equipping educators with tools and wisdom to nurture young minds in faith, fostering a vibrant learning environment rooted in love and truth.",
       footer: "5:00pm",
     },
@@ -113,6 +113,26 @@ const service = {
     },
     {
       header: "Friday Activities",
+      title: "Sanctuary Choir",
+      text: "Elevating worship with harmonious melodies and heartfelt devotion, uniting voices in praise to uplift congregations and glorify God.",
+      footer: "06:00pm",
+    },
+  ],
+  saturdayService: [
+    {
+      header: "Saturday Activities",
+      title: "Royal Ambassador Fellowship",
+      text: "Training boys in faith and service, fostering leadership and missions awareness through activities, equipping them to impact their communities for Christ.",
+      footer: "05:00pm",
+    },
+    {
+      header: "Saturday Activities",
+      title: "Girls Auxiliary Fellowship",
+      text: "Empowering girls in faith and service, cultivating leadership and missions passion through activities that inspire them to impact their world for Christ.",
+      footer: "05:30 pm",
+    },
+    {
+      header: "Saturday Activities",
       title: "Sanctuary Choir",
       text: "Elevating worship with harmonious melodies and heartfelt devotion, uniting voices in praise to uplift congregations and glorify God.",
       footer: "06:00pm",
