@@ -161,51 +161,30 @@
     <!-- ========== Start Section of the friday activities ========== -->
     <div class="container-fluid pt-5 pb-5 mb-5">
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Friday Activities</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Sunday School Teachers Preparatory Class</h5>
-                        <p class="card-text">Equipping educators with tools and wisdom to nurture young minds in faith,
-                            fostering a vibrant learning environment rooted in love and truth.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        5:00pm
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Friday Activites</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Baptist Students Fellowship</h5>
-                        <p class="card-text"> Building community among students through faith, fellowship, and service,
-                            empowering young believers to grow spiritually and impact their campus and beyond.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        5:30 pm
+
+            <% service.thursdayService.map((thursdayService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= thursdayService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= thursdayService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= thursdayService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= fridayService.footer %>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Friday Activites</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Sanctuary Choir </h5>
-                        <p class="card-text">Elevating worship with harmonious melodies and heartfelt devotion, uniting
-                            voices in praise to uplift congregations and glorify God.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        06:00pm
-                    </div>
-                </div>
-            </div>
+                <% }) %>
+
         </div>
     </div>
     <!-- ========== End Section of the friday activities ========== -->
