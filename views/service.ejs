@@ -161,21 +161,20 @@
     <!-- ========== Start Section of the friday activities ========== -->
     <div class="container-fluid pt-5 pb-5 mb-5">
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-
-            <% service.thursdayService.map((thursdayService)=>{ %>
+            <% service.fridayService.map((fridayService)=>{ %>
                 <div class="col">
                     <div class="card text-center">
                         <div class="card-header">
                             <h2 class="h3"><strong>
-                                    <%= thursdayService.header %>
+                                    <%= fridayService.header %>
                                 </strong></h2>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">
-                                <%= thursdayService.title %>
+                                <%= fridayService.title %>
                             </h5>
                             <p class="card-text">
-                                <%= thursdayService.text %>
+                                <%= fridayService.text %>
                             </p>
                         </div>
                         <div class="card-footer text-body-secondary">
@@ -184,65 +183,44 @@
                     </div>
                 </div>
                 <% }) %>
-
         </div>
     </div>
     <!-- ========== End Section of the friday activities ========== -->
     <!-- ========== Start Section of saturday activities ========== -->
     <div class="container-fluid pt-5 pb-5 mb-5">
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Saturday Activities</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Royal Ambassador Fellowship</h5>
-                        <p class="card-text">Training boys in faith and service, fostering leadership and missions
-                            awareness through activities, equipping them to impact their communities for Christ.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        5:00pm
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Saturday Activites</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Girls Auxiliary Fellowship</h5>
-                        <p class="card-text">Empowering girls in faith and service, cultivating leadership and missions
-                            passion through activities that inspire them to impact their world for Christ.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        5:30 pm
+            <% service.saturdayService.map((saturdayService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= saturdayService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= saturdayService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= saturdayService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= saturdayService.footer %>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Friday Activites</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Sanctuary Choir </h5>
-                        <p class="card-text">Elevating worship with harmonious melodies and heartfelt devotion, uniting
-                            voices in praise to uplift congregations and glorify God.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        06:00pm
-                    </div>
-                </div>
-            </div>
+                <% }) %>
         </div>
     </div>
     <!-- ========== End Section of saturday activities ========== -->
     <!-- ========== Start Section of the monthly opportunities ========== -->
     <div class="container-fluid pt-5 pb-5 bg-body-tertiary">
-        <h2 class="text-center mb-4 pt-3" id="topHeading">Monthly Opportunities.</h2>
+        <h2 class="text-center mb-4 pt-3" id="topHeading">
+            <%= service.monthTopHeading %>
+        </h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <!-- 
             <div class="col">
                 <div class="card text-center">
                     <div class="card-header">
@@ -387,6 +365,7 @@
                     </div>
                 </div>
             </div>
+             -->
         </div>
     </div>
     <!-- ========== End Section of the monthly opportunities ========== -->
