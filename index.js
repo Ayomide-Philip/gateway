@@ -13,7 +13,6 @@ var userRoute;
 
 const ipLogger = function (req, res, next) {
   console.log(`User IPaddress: ${requireIp.getClientIp(req)}`);
-  console.log(`Header Request: ${req.headers}`);
   next();
 };
 
