@@ -90,6 +90,14 @@ const service = {
       footer: "5:00pm - 6:00pm",
     },
   ],
+  thursdayService: [
+    {
+      header: "Thursday Activities",
+      title: "Sanctuary Choir",
+      text: "Elevating worship with harmonious melodies and heartfelt devotion, uniting voices in praise to uplift congregations and glorify God.",
+      footer: "5:00pm - 6:00pm",
+    },
+  ],
 };
 
 export default service;
