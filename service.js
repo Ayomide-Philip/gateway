@@ -62,6 +62,14 @@ const service = {
       footer: "5:00 pm",
     },
   ],
+  tuesdayService: [
+    {
+      header: "Tuesday Activities",
+      title: "Fellowship Preparatory Class",
+      text: "Equipping hearts and minds for deeper fellowship with God and community through study, prayer, and shared growth.",
+      footer: "6:00am",
+    },
+  ],
 };
 
 export default service;
