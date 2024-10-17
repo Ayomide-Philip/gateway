@@ -77,7 +77,29 @@
     <!-- ========== Start Section of the tuesday activities ========== -->
     <div class="container-fluid pt-5 pb-5 mb-5 bg-body-tertiary">
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <div class="col">
+            <% service.tuesdayService.map((tuesdayService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= tuesdayService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= tuesdayService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= tuesdayService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= tuesdayService.footer %>
+                        </div>
+                    </div>
+                </div>
+                <% }) %>
+                    <!-- <div class="col">
                 <div class="card text-center">
                     <div class="card-header">
                         <h2 class="h3"><strong>Tuesday Activities</strong></h2>
@@ -122,7 +144,7 @@
                         06:00pm - 07:00pm
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- ========== End Section of the tuesday activities ========== -->
