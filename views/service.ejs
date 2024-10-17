@@ -220,7 +220,29 @@
             <%= service.monthTopHeading %>
         </h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <!-- 
+            <% service.monthlyService.map((monthlyService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= monthlyService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= monthlyService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= monthlyService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= monthlyService.footer %>
+                        </div>
+                    </div>
+                </div>
+                <% }) %>
+                    <!-- 
             <div class="col">
                 <div class="card text-center">
                     <div class="card-header">
