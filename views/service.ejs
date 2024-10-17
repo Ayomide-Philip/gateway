@@ -99,73 +99,34 @@
                     </div>
                 </div>
                 <% }) %>
-                    <!-- <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Tuesday Activities</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Fellowship Preparatory Class</h5>
-                        <p class="card-text">Fellowship Preparatory Class: Equipping hearts and minds for deeper
-                            fellowship with God and community through study, prayer, and shared growth.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        5:00pm - 6:00pm
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Tuesday Activites</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Discipleship Programme</h5>
-                        <p class="card-text">Discipleship Programme: Journeying together in faith to grow as disciples
-                            of Christ through study, service, and spiritual formation.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        6:00 pm
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Tuesday Activites</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Drama</h5>
-                        <p class="card-text">Bringing biblical stories and spiritual truths to life, enriching worship
-                            experiences, and fostering community through theatrical expression and shared faith
-                            narratives.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        06:00pm - 07:00pm
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
     <!-- ========== End Section of the tuesday activities ========== -->
     <!-- ========== Start Section of wednesday activities ========== -->
     <div class="container-fluid pt-5 pb-5 mb-5">
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Wednesday Activities</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Mid-Week Service</h5>
-                        <p class="card-text"> A sanctuary of renewal and connection, offering spiritual nourishment,
-                            fellowship, and reflection to strengthen faith throughout the week.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        5:00pm - 6:00pm
+            <% service.wednesdayService.map((wednesdayService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= wednesdayService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= wednesdayService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= wednesdayService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= wednesdayService.footer %>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <% }) %>
         </div>
     </div>
     <!-- ========== End Section of wednesday activities ========== -->
