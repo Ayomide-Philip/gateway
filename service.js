@@ -75,6 +75,20 @@ const service = {
       text: "Discipleship Programme: Journeying together in faith to grow as disciples of Christ through study, service, and spiritual formation.",
       footer: "5:00pm - 6:00pm",
     },
+    {
+      header: "Tuesday Activities",
+      title: "Drama",
+      text: "Bringing biblical stories and spiritual truths to life, enriching worship experiences, and community through theatrical expression.",
+      footer: "5:00pm - 6:00pm",
+    },
+  ],
+  wednesdayService: [
+    {
+      header: "Wednesday Activities",
+      title: "Mid-Week Service",
+      text: "A sanctuary of renewal and connection, offering spiritual nourishment, fellowship, and reflection to strengthen faith throughout the week.",
+      footer: "5:00pm - 6:00pm",
+    },
   ],
 };
 
