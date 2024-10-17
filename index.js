@@ -12,15 +12,15 @@ app.use(express.static("public"));
 var userRoute;
 
 const ipLogger = function (req, res, next) {
-  console.log(requireIp.getClientIp(req));
+  console.log(`User IPaddress: ${requireIp.getClientIp(req)}`);
+  console.log(`Header Request: ${req.headers}`);
   next();
 };
 
-// app.use(morgan("combined"));
-// app.use(ipLogger);
+app.use(morgan("combined"));
+app.use(ipLogger);
 
 app.get("/", (req, res) => {
-  console.log(req.headers);
   req.route.path == "/" ? (userRoute = "Home") : null;
   res.render("index.ejs", {
     userRoute: userRoute,
