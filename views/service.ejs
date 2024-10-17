@@ -133,21 +133,28 @@
     <!-- ========== Start Section of Thursday activities ========== -->
     <div class="container-fluid pt-5 pb-5 mb-5 bg-body-tertiary">
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-            <div class="col">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h2 class="h3"><strong>Thursday Activities</strong></h2>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Sanctuary Choir</h5>
-                        <p class="card-text"> Elevating worship with harmonious melodies and heartfelt devotion, uniting
-                            voices in praise to uplift congregations and glorify God.</p>
-                    </div>
-                    <div class="card-footer text-body-secondary">
-                        5:00pm - 6:00pm
+            <% service.thursdayService.map((thursdayService)=>{ %>
+                <div class="col">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="h3"><strong>
+                                    <%= thursdayService.header %>
+                                </strong></h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <%= thursdayService.title %>
+                            </h5>
+                            <p class="card-text">
+                                <%= thursdayService.text %>
+                            </p>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            <%= thursdayService.footer %>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <% }) %>
         </div>
     </div>
     <!-- ========== End Section of Thursday activities ========== -->
