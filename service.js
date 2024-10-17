@@ -67,7 +67,13 @@ const service = {
       header: "Tuesday Activities",
       title: "Fellowship Preparatory Class",
       text: "Equipping hearts and minds for deeper fellowship with God and community through study, prayer, and shared growth.",
-      footer: "6:00am",
+      footer: "5:00pm - 6:00pm",
+    },
+    {
+      header: "Tuesday Activities",
+      title: "Discipleship Programme",
+      text: "Discipleship Programme: Journeying together in faith to grow as disciples of Christ through study, service, and spiritual formation.",
+      footer: "5:00pm - 6:00pm",
     },
   ],
 };
