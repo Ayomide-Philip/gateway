@@ -62,7 +62,7 @@ const statementOfFaiths = {
     {
       id: "Six",
       heading: "In the Church",
-      strongText: ">We believe in the universal Church,",
+      strongText: "We believe in the universal Church,",
       paragraph:
         " the body of Christ, composed of all  believers, and in the local church as a community of faith and fellowship for worship,  edification, and mission. The Church is the community of all believers worldwide, united  by their faith in Jesus Christ. Local churches gather for worship, teaching, mutual support,  and to  fulfill the Great Commission.",
     },
