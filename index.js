@@ -10,7 +10,10 @@ app.use(express.static("public"));
 
 var userRoute;
 
+app.use(morgan("dev"));
+
 app.get("/", (req, res) => {
+  console.log(req);
   req.route.path == "/" ? (userRoute = "Home") : null;
   res.render("index.ejs", {
     userRoute: userRoute,
