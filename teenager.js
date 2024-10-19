@@ -36,7 +36,12 @@ const teenager = {
       },
     ],
   },
-  video: {}
+  video: {
+    heading: "Watch Our Founder's Day Video",
+    p: "We recently celebrated our Founder’s Day with a special event that highlighted the history and vision of our church. Watch the video below to see the impact we are making in the lives of our teenagers and the broader community.",
+    iframeURL:
+      "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptistchurchsango%2Fvideos%2F383299811051282%2F&show_text=false&width=560&t=0",
+  },
 };
 
 export default teenager;
