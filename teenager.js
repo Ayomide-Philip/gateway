@@ -70,6 +70,22 @@ const teenager = {
   },
   gallary: {
     heading: "Check Out our Gallary",
+    gallaryImages: [
+      "IMG-10.04.31_fc165bf9",
+      "IMG-20240714-WA0012",
+      "IMG-20240714-WA0013",
+      "IMG-20240714-WA0014",
+      "IMG-20240714-WA0015",
+      "IMG-20240714-WA0016",
+      "IMG-20240714-WA0017",
+      "IMG-20240714-WA0018",
+      "IMG-20240714-WA0019",
+      "IMG-20240714-WA0020",
+      "IMG-20240714-WA0021",
+      "IMG-20240714-WA0022",
+      "IMG-20240714-WA0023",
+      "IMG-20240714-WA0024"
+    ],
   },
 };
 
