@@ -12,8 +12,15 @@ const teenager = {
         heading: "Sunday Services",
         p: "Our Sunday services for teenagers are dynamic and relevant, featuring contemporary worship engaging   messages, and interactive discussions. We focus on addressing the real-life issues that teens  face and  providing biblical guidance and encouragement. These services are led by Miss Tudun and Pastor Samuel, who  has a heart for youth ministry and a passion for helping teens connect with God.",
       },
+      {
+        heading: "Small Groups",
+        p: "We believe that growth happens best in the context of community. Our small groups provide a safe space for teens to share their struggles, ask questions, and support one another. Led by experienced and caring leaders like Pastor Mrs. Ogunjimi and Pastor Mr. Adedutan, these groups foster deep connections and spiritual growth.",
+      },
     ],
   },
+  activities :{
+    topHeading:""
+  }
 };
 
 export default teenager;
