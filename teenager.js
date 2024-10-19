@@ -8,10 +8,6 @@ const teenager = {
     "The Teenagers Ministry",
     "Learn more about the Teenagers Ministry"
   ),
-  // videoBanner: {
-  //   headingDisplay: "The Teenagers Ministry",
-  //   pLead: "Learn more about the Teenagers Ministry",
-  // },
   mission: {
     heading: "Our Mission",
     missionText:
