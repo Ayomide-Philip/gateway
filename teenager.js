@@ -42,6 +42,16 @@ const teenager = {
     iframeURL:
       "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptistchurchsango%2Fvideos%2F383299811051282%2F&show_text=false&width=560&t=0",
   },
+  leaders: {
+    heading: "Meet Our Leaders",
+    leader: [
+      {
+        name: "Pastor Mrs T.A Ogunjimi",
+        shortBio:
+          "She has been leading our Teenager Church for over a years. A passionate person for guiding teens through their spiritual journey, Pastor Mrs Ogunjimi brings energy and insight to every service and event. She loves hiking and reading in her spare time and is dedicated to creating a welcoming and inclusive environment for all teens.",
+      },
+    ],
+  },
 };
 
 export default teenager;
