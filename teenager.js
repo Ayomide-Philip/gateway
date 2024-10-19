@@ -36,6 +36,7 @@ const teenager = {
       },
     ],
   },
+  video: {}
 };
 
 export default teenager;
