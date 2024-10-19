@@ -87,10 +87,19 @@
                 <%= teenager.joinUs.p %>
             </p>
         </div>
-        <h2 class="text-center display-6">Check Out our Gallary</h2>
+        <h2 class="text-center display-6">
+            <%= teenager.gallary.heading %>
+        </h2>
         <div class="gallary">
             <div class="gallary-grid">
-                <div class="grid-item">
+
+                <% teenager.gallary.gallaryImages.map((images)=>{ %>
+                    <div class="grid-item">
+                        <img src="./Teenagers/<%= images %>.jpg" alt="<%= images %>">
+                    </div>
+                    <% }) %>
+
+                        <!-- <div class="grid-item">
                     <img src="./Teenagers/IMG-10.04.31_fc165bf9.jpg" alt="">
                 </div>
                 <div class="grid-item">
@@ -131,7 +140,7 @@
                 </div>
                 <div class="grid-item">
                     <img src="./Teenagers/IMG-20240714-WA0024.jpg" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
