@@ -18,9 +18,24 @@ const teenager = {
       },
     ],
   },
-  activities :{
-    topHeading:""
-  }
+  activities: {
+    topHeading: "Events and Activities",
+    p: "Throughout the year, we host a variety of events and activities designed to build community and strengthen faith. Some of our key events include",
+    list: [
+      {
+        heading: "Youth Retreats",
+        text: "Weekend retreats that provide an opportunity for teens to unplug, connect with God, and build lasting friendships.",
+      },
+      {
+        heading: "Conferences",
+        text: "Annual youth conferences that feature inspiring speakers, powerful worship, and practical workshops.",
+      },
+      {
+        heading: "Social Events",
+        text: "Annual youth conferences that feature inspiring speakers, powerful worship, and practical workshops.",
+      },
+    ],
+  },
 };
 
 export default teenager;
