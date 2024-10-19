@@ -32,7 +32,7 @@ const teenager = {
       },
       {
         heading: "Social Events",
-        text: "Annual youth conferences that feature inspiring speakers, powerful worship, and practical workshops.",
+        text: "Fun outings and social events that allow teens to relax and enjoy time with their peers in a positive environment.",
       },
     ],
   },
