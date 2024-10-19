@@ -4,6 +4,7 @@ import morgan from "morgan";
 import welcome, { newsLetter, statementOfFaiths } from "./home.js";
 import service from "./service.js";
 import requireIp from "request-ip";
+import teenager from "./teenager.js";
 
 const app = express();
 const port = 3000;
@@ -76,7 +77,7 @@ app.get("/service", (req, res) => {
 
 app.get("/teenager", (req, res) => {
   req.route.path == "/teenager" ? (userRoute = "Teenager") : null;
-  res.render("teenager.ejs", { userRoute: userRoute });
+  res.render("teenager.ejs", { userRoute: userRoute, teenager: teenager });
 });
 
 app.listen(port, () => {
