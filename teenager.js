@@ -50,6 +50,16 @@ const teenager = {
         shortBio:
           "She has been leading our Teenager Church for over a years. A passionate person for guiding teens through their spiritual journey, Pastor Mrs Ogunjimi brings energy and insight to every service and event. She loves hiking and reading in her spare time and is dedicated to creating a welcoming and inclusive environment for all teens.",
       },
+      {
+        name: "Pastor Adeduntan Taiwo Akinola",
+        shortBio:
+          "Pastor Adeduntan Taiwo Akinola, the Teen Pastor Assistant at Gateway Baptist Church, supports our youth with dedication and compassion, helping to create a nurturing and engaging environment for their spiritual growth.He is a man of prayer, he has a great vision in helping teenagers grow spritually.",
+      },
+      {
+        name: "Dn. Dr. Sola Olayiwola",
+        shortBio:
+          "Dn. Dr. Sola Olayiwola, our dedicated Teen Administrator at Gateway Baptist Church, passionately guides teenagers through their spiritual journeys with wisdom, enthusiasm, and a commitment to fostering a welcoming and supportive environment.",
+      },
     ],
   },
 };
