@@ -12,10 +12,7 @@
             </div>
         </div>
     </div>
-
-    <!-- ========== End  section of video banner ========== -->
     <div class="bg-body-tertiary pb-5 pt-5">
-        <!-- ========== Start Section of the main content of the children ministry ========== -->
         <div class="container-fluid">
             <h2 class="text-center display-6" id="topHeading">
                 <%= teenager.topHeading %>
@@ -44,10 +41,12 @@
                     </li>
                     <% }) %>
             </ul>
-            <h2>Events and Activities</h2>
-            <p>Throughout the year, we host a variety of events and activities designed to build community and
-                strengthen
-                faith. Some of our key events include:</p>
+            <h2>
+                <%= teenager.activities.topHeading %>
+            </h2>
+            <p>
+                <%= teenager.activities.p %>:
+            </p>
             <ul>
                 <li>
                     <p>Youth Retreats: Weekend retreats that provide an opportunity for teens to unplug, connect with
