@@ -1,5 +1,9 @@
 const service = {
   topHeading: "Usual Church Activites",
+  videoBanner: {
+    headingDisplay: "Services in our Church",
+    pLead: "Learn more about the usual service of our Church",
+  },
   sundayService: [
     {
       header: "Sunday Service",
