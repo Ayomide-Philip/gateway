@@ -48,21 +48,13 @@
                 <%= teenager.activities.p %>:
             </p>
             <ul>
-                <li>
-                    <p>Youth Retreats: Weekend retreats that provide an opportunity for teens to unplug, connect with
-                        God, and
-                        build lasting friendships.</p>
-                </li>
-                <li>
-                    <p>Conferences: Annual youth conferences that feature inspiring speakers, powerful worship, and
-                        practical
-                        workshops. </p>
-                </li>
-                <li>
-                    <p>Social Events: Fun outings and social events that allow teens to relax and enjoy time with their
-                        peers in a
-                        positive environment.</p>
-                </li>
+                <% teenager.activities.list.map((lists)=>{ %>
+                    <li>
+                        <p>
+                            <%= lists.heading %>: <%= lists.text %>
+                        </p>
+                    </li>
+                    <% }) %>
             </ul>
             <h2 class="pt-5">Watch Our Founder's Day Video</h2>
             <p>We recently celebrated our Founder’s Day with a special event that highlighted the history and vision of
