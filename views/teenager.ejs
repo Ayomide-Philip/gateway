@@ -33,7 +33,21 @@
                 <%= teenager.offer.topHeading %>
             </h1>
             <ul>
-                <li>
+                <% teenager.offer.list.map((lists)=>{ %>
+                    <li>
+                        <p><strong> <%= lists. %> :</strong> </p>
+                        <p>Our Sunday services for teenagers are dynamic and relevant, featuring contemporary worship,
+                            engaging
+                            messages, and interactive discussions. We focus on addressing the real-life issues that
+                            teens
+                            face and
+                            providing biblical guidance and encouragement. These services are led by Miss Tudun and
+                            Pastor
+                            Samuel, who
+                            has a heart for youth ministry and a passion for helping teens connect with God.</p>
+                    </li>
+                    <% }) %>
+                        <!-- <li>
                     <p><strong>Sunday Services:</strong> </p>
                     <p>Our Sunday services for teenagers are dynamic and relevant, featuring contemporary worship,
                         engaging
@@ -52,7 +66,7 @@
                         leaders like Pastor Mrs. Ogunjimi and Pastor Mr. Adedutan, these groups foster deep connections
                         and
                         spiritual growth.</p>
-                </li>
+                </li> -->
             </ul>
             <h2>Events and Activities</h2>
             <p>Throughout the year, we host a variety of events and activities designed to build community and
