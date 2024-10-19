@@ -62,6 +62,10 @@ const teenager = {
       },
     ],
   },
+  joinUs: {
+    heading: "Join Us!!",
+    p: "We would love for you to be a part of our Teenager Church community. Whether you are looking for a place to grow in your faith, make new friends, or find support during challenging times, we are here for you.",
+  },
 };
 
 export default teenager;
