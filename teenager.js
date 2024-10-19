@@ -6,3 +6,5 @@ const teenager = {
   secondP:
     "Our mission is to inspire and equip teenagers to grow in their relationship with Jesus Christ, develop strong moral character, and become leaders in their communities. We aim to create a space where teens feel  valued, heard, and empowered to make a positive impact in the world.",
 };
+
+export default teenager;
