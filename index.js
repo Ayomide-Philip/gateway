@@ -19,7 +19,6 @@ const ipLogger = function (req, res, next) {
 
 app.use(morgan("combined"));
 app.use(ipLogger);
-console.log(teenager.videoBanner);
 
 app.get("/", (req, res) => {
   req.route.path == "/" ? (userRoute = "Home") : null;
