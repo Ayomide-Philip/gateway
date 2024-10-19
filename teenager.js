@@ -2,6 +2,10 @@ const teenager = {
   topHeading: "Welcome to Our Teenager Church!",
   firstP:
     "At Harmony Community Church, we recognize the unique needs and challenges of teenagers as they navigate  this  pivotal stage of life. Our Teenager Church is dedicated to providing a supportive, engaging, and faith-building environment where teens can explore their faith, build meaningful relationships, and discover their God-given potential.",
+  videoBanner: {
+    headingDisplay: "The Teenagers Ministry",
+    pLead: "Learn more about the Teenagers Ministry",
+  },
   mission: {
     heading: "Our Mission",
     missionText:
@@ -84,7 +88,7 @@ const teenager = {
       "IMG-20240714-WA0021",
       "IMG-20240714-WA0022",
       "IMG-20240714-WA0023",
-      "IMG-20240714-WA0024"
+      "IMG-20240714-WA0024",
     ],
   },
 };
