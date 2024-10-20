@@ -68,10 +68,13 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body" style="text-align: center; text-decoration: solid;">
-                        <p class="lead"><strong>Account Name: Gateway Baptist Church</strong></p>
-                        <strong> Mission Offering (Sterling Bank) 0007288121 </strong><br>
-                        <strong>Thithe & Offering (First Bank) 2000101592</strong> <br>
-                        <strong> Other Donation (Polaris) 1140088089</strong> <br>
+                        <p class="lead"><strong>Account Name: <%= donate.waysToDonate.donateButton.modal.accountName %>
+                            </strong></p>
+                        <% donate.waysToDonate.donateButton.modal.bankAccount.map((account)=>{ %>
+                            <strong>
+                                <%= account.purpose %> (<%= account.bankName %>) <%= account.accountNumber %>
+                            </strong><br>
+                            <% }) %>
                     </div>
                 </div>
             </div>
