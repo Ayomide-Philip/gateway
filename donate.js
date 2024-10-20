@@ -90,6 +90,11 @@ const donate = {
     heading: "Join Us in Making a Difference.",
     text: "We invite you to join us in making a lasting impact through your financial support. Your generosity enables us to continue our mission of spreading the love of Christ and serving those in need.",
   },
+  contactUs: {
+    heading: "Contact Us",
+    emailAddress: "gateway4054@gmail.com",
+    telephoneNumber: "+2347031686966",
+  },
 };
 
 export default donate;
