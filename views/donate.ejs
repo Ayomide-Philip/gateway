@@ -7,22 +7,30 @@
         </video>
         <div class="video-overlay">
             <div>
-                <h1 class="display-4"><strong>Donate to Gateway Baptist Church</strong></h1>
-                <p class="lead">Your generous donations help Gateway Baptist Church fulfill its mission to serve our
-                    community</p>
+                <h1 class="display-4"><strong>
+                        <%= donate.videoBanner.headingDisplay%>
+                    </strong></h1>
+                <p class="lead">
+                    <%= donate.videoBanner.pLead%>
+                </p>
             </div>
         </div>
     </div>
 
     <!-- ========== End  section of video banner ========== -->
     <div class="bg-body-tertiary pb-5 ps-4 pt-5">
-        <h2 class="display-6" style="text-align: center;">Donate to Gateway Baptist Church</h2>
-        <p>Your generous donations help Gateway Baptist Church fulfill its mission to serve our community, spread the
-            Gospel, and support those in need. Every gift, no matter the size, makes a significant difference in
-            advancing our work and vision. Thank you for partnering with us in this vital ministry.</p>
-        <h2>Why Your Donation Matters</h2>
-        <p>At Gateway Baptist Church, we are committed to being a beacon of hope and love in our community and beyond.
-            Your contributions enable us to:</p>
+        <h2 class="display-6" style="text-align: center;">
+            <%= donate.heading %>
+        </h2>
+        <p>
+            <%= donate.p %>
+        </p>
+        <h2>
+            <%= donate.whyDonate.heading %>
+        </h2>
+        <p>
+            <%= donate.whyDonate.p %>:
+        </p>
         <ul>
             <li>
                 <p><strong>Support Community Outreach:</strong> Provide meals, clothing, and essential services to those
