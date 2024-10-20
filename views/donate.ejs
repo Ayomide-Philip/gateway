@@ -32,7 +32,16 @@
             <%= donate.whyDonate.p %>:
         </p>
         <ul>
-            <li>
+            <% donate.whyDonate.list.map((lists)=>{ %>
+                <li>
+                    <p><strong>
+                            <%= lists.heading %>:
+                        </strong>
+                        <%= lists.text %>
+                    </p>
+                </li>
+                <% }) %>
+                    <!-- <li>
                 <p><strong>Support Community Outreach:</strong> Provide meals, clothing, and essential services to those
                     in need through our various outreach programs.</p>
             </li>
@@ -47,7 +56,7 @@
             <li>
                 <p><strong>Fund Missionary Work:</strong> Support missionaries locally and globally, spreading the
                     message of hope and salvation.</p>
-            </li>
+            </li> -->
         </ul>
         <h2>Ways to Give</h2>
         <h4>Online Giving</h4>
