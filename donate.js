@@ -38,9 +38,33 @@ const donate = {
       modal: {
         heading: "You Can Pay Directly into the following Accounts.",
         accountName: "Gateway Baptist Church",
+        bankAccount: [
+          {
+            purpose: "Mission Offering",
+            bankName: "Sterling Bank",
+            accountNumber: "0007288121",
+          },
+          {
+            purpose: "Thithe & Offering",
+            bankName: "First Bank",
+            accountNumber: "2000101592",
+          },
+          {
+            purpose: "Other Donation",
+            bankName: "Polaris Bank",
+            accountNumber: "1140088089",
+          },
+        ],
       },
     },
+    inPersonGiving: {
+      heading: "In-Person Giving",
+      p: "We offer a secure and convenient online giving platform where you can make one-time or recurring donations through direct bank transfer. Click the button below to donate now.",
+      mapURL:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.4042328308647!2d3.893266975001243!3d7.42043619259002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d2469bd9aa7%3A0xed55e2fa30d60b64!2sGateway%20Baptist%20Church%2C%20Sango%2C%20Ibadan!5e0!3m2!1sen!2sng!4v1720267763211!5m2!1sen!2sng",
+    },
   },
+  howWeUseDonations:{}
 };
 
 export default donate;
