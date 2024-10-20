@@ -1,6 +1,4 @@
 <%- include("partials/header.ejs") %>
-    <!-- ========== End Section of navigation bar ========== -->
-    <!-- ========== Start  section of video banner ========== -->
     <div class="video-container">
         <video autoplay muted loop>
             <source src="./video/video-banner/mission-video.mp4" type="video/mp4">
@@ -17,10 +15,6 @@
             </div>
         </div>
     </div>
-
-    <!-- ========== End  section of video banner ========== -->
-
-    <!-- ========== Start section of the welcome message ========== -->
     <div class="container-fluid pt-5 pb-5" style="width: 100%;">
         <h2 class="display-6 text-center">
             <%= sermon.videos.heading %>
@@ -37,8 +31,4 @@
                 <% }) %>
         </div>
     </div>
-
-
-    <!-- ========== End section of the welcome message ========== -->
-    <!-- ========== Start Section of the footer ========== -->
     <%- include("partials/footer.ejs") %>
