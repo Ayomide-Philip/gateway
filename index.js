@@ -6,6 +6,7 @@ import service from "./service.js";
 import requireIp from "request-ip";
 import teenager from "./teenager.js";
 import sermon from "./sermon.js";
+import donate from "./donate.js";
 
 const app = express();
 const port = 3000;
@@ -43,7 +44,10 @@ app.get("/contact", (req, res) => {
 
 app.get("/donate", (req, res) => {
   req.route.path == "/donate" ? (userRoute = "Donate") : null;
-  res.render("donate.ejs", { userRoute: userRoute });
+  res.render("donate.ejs", {
+    userRoute: userRoute,
+    donate: donate,
+  });
 });
 
 app.get("/events", (req, res) => {
