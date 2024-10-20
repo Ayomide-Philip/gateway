@@ -97,22 +97,15 @@
             <%= donate.howWeUseDonations.p %>:
         </p>
         <ul>
-            <li>
-                <p><strong>Community Outreach:</strong> Feeding the homeless, providing after-school programs, and
-                    supporting local missions.</p>
-            </li>
-            <li>
-                <p><strong>Church Operations:</strong> Maintaining our beautiful facilities, supporting our dedicated
-                    staff, and ensuring the smooth operation of our services.</p>
-            </li>
-            <li>
-                <p><strong>Global Missions:</strong> Assisting missionaries worldwide, funding international projects,
-                    and spreading the Gospel to the ends of the earth.</p>
-            </li>
-            <li>
-                <p><strong>Youth and Educational Programs:</strong> Investing in the next generation through youth
-                    groups, educational scholarships, and enrichment programs.</p>
-            </li>
+            <% donate.howWeUseDonations.howWeUse.map((howWeUse)=>{ %>
+                <li>
+                    <p><strong>
+                            <%= howWeUse.heading %>:
+                        </strong>
+                        <%= howWeUse.text %>
+                    </p>
+                </li>
+                <% }) %>
         </ul>
         <h2>Join Us in Making a Difference</h2>
         <p>We invite you to join us in making a lasting impact through your financial support. Your generosity enables
