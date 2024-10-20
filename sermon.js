@@ -5,6 +5,9 @@ const sermon = {
     "Watch Our Sermons and Find Inspiration",
     "Discover spiritual guidance through our sermons"
   ),
+  videos: {
+    heading: "Here are some of our Inspirational Sermons",
+  },
 };
 
 export default sermon;
