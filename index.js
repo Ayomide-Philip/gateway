@@ -1,12 +1,12 @@
 import express from "express";
 import bodyParser from "body-parser";
 import morgan from "morgan";
-import welcome, { newsLetter, statementOfFaiths } from "./home.js";
-import service from "./service.js";
+import welcome, { newsLetter, statementOfFaiths } from "./componet/home.js";
+import service from "./componet/service.js";
 import requireIp from "request-ip";
-import teenager from "./teenager.js";
-import sermon from "./sermon.js";
-import donate from "./donate.js";
+import teenager from "./componet/teenager.js";
+import sermon from "./componet/sermon.js";
+import donate from "./componet/donate.js";
 
 const app = express();
 const port = 3000;

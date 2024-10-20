@@ -1,4 +1,4 @@
-import createVideo from "./componet/videoBanner.js";
+import createVideo from "./subcomponet/videoBanner.js";
 
 const teenager = {
   topHeading: "Welcome to Our Teenager Church!",
