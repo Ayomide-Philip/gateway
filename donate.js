@@ -67,6 +67,12 @@ const donate = {
   howWeUseDonations: {
     heading: "How We Use Your Donations",
     p: "Your generous donations are utilized in a variety of impactful ways",
+    howWeUse: [
+      {
+        heading: "Community Outreach",
+        text: "Feeding the homeless, providing after-school programs, and supporting local missions.",
+      },
+    ],
   },
 };
 
