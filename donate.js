@@ -64,7 +64,10 @@ const donate = {
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.4042328308647!2d3.893266975001243!3d7.42043619259002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d2469bd9aa7%3A0xed55e2fa30d60b64!2sGateway%20Baptist%20Church%2C%20Sango%2C%20Ibadan!5e0!3m2!1sen!2sng!4v1720267763211!5m2!1sen!2sng",
     },
   },
-  howWeUseDonations:{}
+  howWeUseDonations: {
+    heading: "How We Use Your Donations",
+    p: "Your generous donations are utilized in a variety of impactful ways",
+  },
 };
 
 export default donate;
