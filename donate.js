@@ -72,7 +72,23 @@ const donate = {
         heading: "Community Outreach",
         text: "Feeding the homeless, providing after-school programs, and supporting local missions.",
       },
+      {
+        heading: "Church Operations",
+        text: "Maintaining our beautiful facilities, supporting our dedicated staff, and ensuring the smooth operation of our services.",
+      },
+      {
+        heading: "Global Missions",
+        text: "Assisting missionaries worldwide, funding international projects, and spreading the Gospel to the ends of the earth.",
+      },
+      {
+        heading: "Youth and Educational Programs",
+        text: "Investing in the next generation through youth groups, educational scholarships, and enrichment programs.",
+      },
     ],
+  },
+  joinUs: {
+    heading: "Join Us in Making a Difference.",
+    text: "We invite you to join us in making a lasting impact through your financial support. Your generosity enables us to continue our mission of spreading the love of Christ and serving those in need.",
   },
 };
 
