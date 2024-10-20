@@ -1,3 +1,5 @@
+import createVideo from "./componet/videoBanner.js";
+
 const service = {
   topHeading: "Usual Church Activites",
   videoBanner: createVideo(
