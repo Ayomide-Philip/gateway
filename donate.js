@@ -36,7 +36,8 @@ const donate = {
     donateButton: {
       heading: "Donate Now",
       modal: {
-        heading: "You Can Pay Directly into the following Accounts",
+        heading: "You Can Pay Directly into the following Accounts.",
+        accountName: "Gateway Baptist Church",
       },
     },
   },
