@@ -63,7 +63,9 @@ app.get("/history", (req, res) => {
 
 app.get("/mission", (req, res) => {
   req.route.path == "/mission" ? (userRoute = "Mission") : null;
-  res.render("mission.ejs", { userRoute: userRoute });
+  res.render("mission.ejs", {
+    userRoute: userRoute,
+  });
 });
 
 app.get("/sermon", (req, res) => {
@@ -84,7 +86,10 @@ app.get("/service", (req, res) => {
 
 app.get("/teenager", (req, res) => {
   req.route.path == "/teenager" ? (userRoute = "Teenager") : null;
-  res.render("teenager.ejs", { userRoute: userRoute, teenager: teenager });
+  res.render("teenager.ejs", {
+    userRoute: userRoute,
+    teenager: teenager,
+  });
 });
 
 app.listen(port, () => {
