@@ -7,7 +7,7 @@ import requireIp from "request-ip";
 import teenager from "./componet/teenager.js";
 import sermon from "./componet/sermon.js";
 import donate from "./componet/donate.js";
-
+import getInvolved from "./componet/getInvolved.js";
 const app = express();
 const port = 3000;
 app.use(express.static("public"));
@@ -57,7 +57,10 @@ app.get("/events", (req, res) => {
 
 app.get("/get-involved", (req, res) => {
   req.route.path == "/get-involved" ? (userRoute = "Get Involved") : null;
-  res.render("getInvolved.ejs", { userRoute: userRoute });
+  res.render("getInvolved.ejs", {
+    userRoute: userRoute,
+    getInvolved: getInvolved,
+  });
 });
 
 app.get("/history", (req, res) => {
