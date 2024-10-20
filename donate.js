@@ -33,6 +33,12 @@ const donate = {
     heading: "Ways to Give",
     subHeading: "Online Giving",
     p: "We offer a secure and convenient online giving platform where you can make one-time or recurring donations through direct bank transfer. Click the button below to donate now.",
+    donateButton: {
+      heading: "Donate Now",
+      buttonContent: {
+        heading: "You Can Pay Directly into the following Accounts",
+      },
+    },
   },
 };
 
