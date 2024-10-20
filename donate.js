@@ -29,6 +29,9 @@ const donate = {
       },
     ],
   },
+  waysToDonate:{
+    
+  }
 };
 
 export default donate;
