@@ -9,6 +9,7 @@ import sermon from "./componet/sermon.js";
 import donate from "./componet/donate.js";
 import getInvolved from "./componet/getInvolved.js";
 import events from "./componet/events.js";
+import children from "./componet/children.js";
 
 const app = express();
 const port = 3000;
@@ -38,6 +39,7 @@ app.get("/children", (req, res) => {
   req.route.path == "/children" ? (userRoute = "Children") : null;
   res.render("children.ejs", {
     userRoute: userRoute,
+    children: children,
   });
 });
 
