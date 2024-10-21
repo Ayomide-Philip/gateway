@@ -36,11 +36,18 @@ const events = {
     },
     {
       heading: "Here Are some of the Video From Our Father Day",
-      video: [],
+      video: [
+        "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F761088999437505%2F&show_text=false&width=560&t=0",
+        "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F450202644304911%2F&show_text=false&width=560&t=0",
+      ],
     },
     {
       heading: "Here Are some of the Video From Our MOTHER'S DAY SERVICE",
-      video: [],
+      video: [
+        "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F1125114802039192%2F&show_text=false&width=560&t=0",
+        "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F764907969171980%2F&show_text=false&width=560&t=0",
+        "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F960351552206127%2F&show_text=false&width=560&t=0",
+      ],
     },
   ],
 };
