@@ -5,6 +5,8 @@ const getInvolved = {
     "Get Involved at Gateway Baptist Church",
     "Get involved in our church activities"
   ),
+  heading: "Get Involved at Gateway Baptist Church",
+  p: "At Gateway Baptist Church, we believe that everyone has a unique role to play in our community. Getting involved is a great way to grow in your faith, build relationships, and make a positive impact. Whether you have a few hours a month or a few hours a week, there are many ways you can get involved.",
 };
 
 export default getInvolved;
