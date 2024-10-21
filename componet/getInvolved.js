@@ -83,6 +83,10 @@ const getInvolved = {
       },
     ],
   },
+  howToGetInvolved: {
+    heading: "How to Get Involved",
+    p: "Getting involved is easy! Here are a few steps to get started",
+  },
 };
 
 export default getInvolved;
