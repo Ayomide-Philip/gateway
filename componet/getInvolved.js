@@ -10,6 +10,12 @@ const getInvolved = {
   whyInvolved: {
     heading: "Why Get Involved?",
     p: "Getting involved in church activities and ministries helps you to",
+    why: [
+      {
+        heading: "Grow Spiritually",
+        text: "Engage in activities that deepen your faith and understanding of God's Word.",
+      },
+    ],
   },
 };
 
