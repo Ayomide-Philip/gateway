@@ -60,6 +60,10 @@ const getInvolved = {
         heading: "Small Groups",
         text: "Facilitate or join a small group to foster deeper connections and spiritual growth. Opportunities include hosting a group in your home, leading discussions, and coordinating activities.",
       },
+      {
+        heading: "Church Administration",
+        text: "Assist with the administrative needs of the church. Opportunities include office support, communications, and event planning.",
+      },
     ],
   },
 };
