@@ -21,7 +21,7 @@ const events = {
     {
       heading: "Here Are some of the Video From Our ROYAL AMBASSADOR WEEK 2024",
       video: [
-        "https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F496026033097865%2F&show_text=false&width=560&t=0",
+        "https://.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F496026033097865%2F&show_text=false&width=560&t=0",
         "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F1962709577482922%2F&show_text=false&width=560&t=0",
         "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F1622641895273435%2F&show_text=false&width=560&t=0",
         "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F1395262367828535%2F&show_text=false&width=560&t=0",
