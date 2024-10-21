@@ -52,6 +52,14 @@ const getInvolved = {
         heading: "Outreach and Missions",
         text: "Get involved in local and international outreach efforts. Opportunities include organizing community service projects, participating in mission trips, and supporting our partner organizations.",
       },
+      {
+        heading: "Prayer Ministry",
+        text: "Join our prayer team to support the church and community through prayer. Opportunities include participating in prayer meetings, leading prayer groups, and praying for specific needs.",
+      },
+      {
+        heading: "Small Groups",
+        text: "Facilitate or join a small group to foster deeper connections and spiritual growth. Opportunities include hosting a group in your home, leading discussions, and coordinating activities.",
+      },
     ],
   },
 };
