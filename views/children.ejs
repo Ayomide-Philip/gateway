@@ -30,33 +30,41 @@
             <p>
                 <%= children.leaders.p %>:
             </p>
-            <h2>Revd Mrs Florence Oluwakemi Adedeji - Children’s Ministry Director</h2>
-            <p>Revd Mrs Florence Oluwakemi Adedeji has been leading our Children’s Ministry for quite long number years.
-                She Worked at Ebenezer High School, Ibadan, Studied at The Nigerian Baptist Theology Seminary Ogb, Went
-                to polytechnic high school ibadan. She is committed to creating a loving and engaging environment for
-                all children.</p>
-            <h2>Sunday School Teachers</h2>
-            <p>Our Sunday School teachers bring a wealth of experience and enthusiasm to their roles, creating a dynamic
-                and engaging learning environment for our children.</p>
+            <h2>
+                <%= children.leaders.leader.name %> - <%= children.leaders.leader.positionHeld %>
+            </h2>
+            <p>
+                <%= children.leaders.leader.bio%>
+            </p>
+            <h2>
+                <%= children.sundaySchool.name %>
+            </h2>
+            <p>
+                <%= children.sundaySchool.bio %>
+            </p>
+
             <ul>
-                <li>
-                    <p><strong>Preschool:</strong> Our preschool teachers have a deep understanding of early childhood
-                        education. Their creativity and enthusiasm make learning about Jesus fun for our youngest
-                        members. They enjoy and often incorporate their special talents into their lessons to make them
-                        more engaging.</p>
-                </li>
+                <% children.sundaySchool.lists.map((list)=>{ %>
+                    <li>
+                        <p>
+                            <strong<%= list.heading %>:</strong>
+                                <%= list.text %>
+                        </p>
+                    </li>
+                    <% }) %>
+                        <!--
                 <li>
                     <p><strong>Elementary:</strong> Our elementary teachers have a heart for teaching and a love for
                         God’s Word. They help our elementary students understand and apply biblical truths. Known for
                         their patience and kindness, they are favorites among the kids and are dedicated to fostering a
                         sense of community within the classroom.</p>
-                </li>
+                </li> -->
             </ul>
-            <h2>Volunteer Coordinators</h2>
+            <!--  <h2>Volunteer Coordinators</h2>
             <p class="pb-5">Our volunteer coordinators play a crucial role in ensuring our ministry runs smoothly. They
                 organize and support our wonderful volunteers, connecting with both parents and volunteers alike. With
                 their skills in event planning, they ensure everyone feels welcomed and valued. Outside of church, they
-                enjoy gardening and are passionate about community service initiatives.</p>
+                enjoy gardening and are passionate about community service initiatives.</p> -->
             <h2 class="display-6">Our Kids in Action</h2>
             <h3 class="text-center">Here Are some of the Video From Our Children Day</h3>
             <iframe class="mb-4 d-none d-md-block "
@@ -81,7 +89,8 @@
                 allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                 allowFullScreen="true"></iframe>
 
-            <p class="lead">Our Children’s Ministry is a vibrant community where kids learn, play, and grow together.
+            <p class="lead">Our Children’s Ministry is a vibrant community where kids learn, play, and grow
+                together.
                 Here are some snapshots of our children in action:</p>
             <iframe class="pt-5" width="100%" height="500"
                 src="https://www.youtube.com/embed/2l5HE0gHTmY?si=Agz-KQYGVO94QvH9" title="YouTube video player"
@@ -104,10 +113,12 @@
             <h2 class="display-5">Get Involved</h2>
             <h2>Volunteers:</h2>
             <p>Our Children’s Ministry thrives on the dedication of our volunteers. Whether you have a passion for
-                teaching, organizing events, or simply want to make a difference in a child's life, we have a place for
+                teaching, organizing events, or simply want to make a difference in a child's life, we have a place
+                for
                 you. Training and resources are provided to ensure you feel equipped and confident in your role.</p>
             <h2>Parents:</h2>
-            <p>We believe that parents are the primary spiritual leaders in their children's lives. We offer resources
+            <p>We believe that parents are the primary spiritual leaders in their children's lives. We offer
+                resources
                 and support to help you nurture your child's faith at home. Join us for our parent workshops, family
                 devotion nights, and other events designed to strengthen your family's spiritual journey.</p>
         </div>
