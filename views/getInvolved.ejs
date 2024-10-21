@@ -71,25 +71,15 @@
                             <%= getInvolved.howToGetInvolved.p %>:
                         </p>
                         <ol>
-                            <li>
-                                <p><strong>Pray and Reflect:</strong> Consider where God is calling you to serve and
-                                    what gifts
-                                    and
-                                    talents you can offer.</p>
-                            </li>
-                            <li>
-                                <p><strong>Explore Opportunities:</strong> Review the opportunities listed above and
-                                    think about
-                                    where
-                                    you might fit best.</p>
-                            </li>
-
-                            <li>
-                                <p><strong>Get Started:</strong> Once you’ve found your fit, jump in and start serving!
-                                    You’ll
-                                    be guided
-                                    and supported as you begin your journey.</p>
-                            </li>
+                            <% getInvolved.howToGetInvolved.list.map((lists)=>{ %>
+                                <li>
+                                    <p><strong>
+                                            <%= lists.heading %>:
+                                        </strong>
+                                        <%= lists.text %>.
+                                    </p>
+                                </li>
+                                <% }) %>
                         </ol>
     </div>
     <!-- ========== Start Section of the footer ========== -->
