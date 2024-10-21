@@ -8,6 +8,8 @@ import teenager from "./componet/teenager.js";
 import sermon from "./componet/sermon.js";
 import donate from "./componet/donate.js";
 import getInvolved from "./componet/getInvolved.js";
+import events from "./componet/events.js";
+
 const app = express();
 const port = 3000;
 app.use(express.static("public"));
@@ -34,12 +36,16 @@ app.get("/", (req, res) => {
 
 app.get("/children", (req, res) => {
   req.route.path == "/children" ? (userRoute = "Children") : null;
-  res.render("children.ejs", { userRoute: userRoute });
+  res.render("children.ejs", {
+    userRoute: userRoute,
+  });
 });
 
 app.get("/contact", (req, res) => {
   req.route.path == "/contact" ? (userRoute = "Contact") : null;
-  res.render("contact.ejs", { userRoute: userRoute });
+  res.render("contact.ejs", {
+    userRoute: userRoute,
+  });
 });
 
 app.get("/donate", (req, res) => {
@@ -52,7 +58,10 @@ app.get("/donate", (req, res) => {
 
 app.get("/events", (req, res) => {
   req.route.path == "/events" ? (userRoute = "Events") : null;
-  res.render("events.ejs", { userRoute: userRoute });
+  res.render("events.ejs", {
+    userRoute: userRoute,
+    events: events,
+  });
 });
 
 app.get("/get-involved", (req, res) => {
