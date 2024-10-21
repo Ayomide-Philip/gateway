@@ -53,41 +53,44 @@
                 <%= opportunities.text %>
             </p>
             <% }) %>
-                <h2 class="display-6 pb-4" style="text-align: center;">Special Events and Programs</h2>
-                <h3>Community Service Projects</h3>
-                <p>Join us in serving our local community through various projects such as food drives, neighborhood
-                    clean-ups,
-                    and outreach to those in need.</p>
-                <h3>Annual Church Retreat</h3>
-                <p>Participate in our annual church retreat, a time of renewal, fellowship, and spiritual growth.</p>
-                <h3>Seasonal Celebrations</h3>
-                <p>Help organize and participate in our seasonal events such as Christmas and Easter celebrations, which
-                    bring
-                    joy and the message of Christ to our community.</p>
-                <h2 class="display-6 pb-4" style="text-align: center;">How to Get Involved</h2>
-                <p class="lead">Getting involved is easy! Here are a few steps to get started:</p>
-                <ol>
-                    <li>
-                        <p><strong>Pray and Reflect:</strong> Consider where God is calling you to serve and what gifts
-                            and
-                            talents you can offer.</p>
-                    </li>
-                    <li>
-                        <p><strong>Explore Opportunities:</strong> Review the opportunities listed above and think about
-                            where
-                            you might fit best.</p>
-                    </li>
-                    <li>
-                        <p><strong>Reach Out:</strong> Contact our Volunteer Coordinator, Lisa Roberts, at <a
-                                href="mailto:gateway4054@gmail.com">gateway4054@gmail.com</a> or <a
-                                href="tel:+2347031686966">Call us</a> to express your interest and learn </p>
-                    </li>
-                    <li>
-                        <p><strong>Get Started:</strong> Once you’ve found your fit, jump in and start serving! You’ll
-                            be guided
-                            and supported as you begin your journey.</p>
-                    </li>
-                </ol>
+                <h2 class="display-6 pb-4" style="text-align: center;">
+                    <%= getInvolved.specialEvent.heading %>
+                </h2>
+                <% getInvolved.specialEvent.list.map((lists)=>{ %>
+                    <h3>
+                        <%= lists.heading %>
+                    </h3>
+                    <p>
+                        <%= lists.text %>
+                    </p>
+                    <% }) %>
+                        <h2 class="display-6 pb-4" style="text-align: center;">
+                            <%= getInvolved.howToGetInvolved.heading %>
+                        </h2>
+                        <p class="lead">
+                            <%= getInvolved.howToGetInvolved.p %>:
+                        </p>
+                        <ol>
+                            <li>
+                                <p><strong>Pray and Reflect:</strong> Consider where God is calling you to serve and
+                                    what gifts
+                                    and
+                                    talents you can offer.</p>
+                            </li>
+                            <li>
+                                <p><strong>Explore Opportunities:</strong> Review the opportunities listed above and
+                                    think about
+                                    where
+                                    you might fit best.</p>
+                            </li>
+
+                            <li>
+                                <p><strong>Get Started:</strong> Once you’ve found your fit, jump in and start serving!
+                                    You’ll
+                                    be guided
+                                    and supported as you begin your journey.</p>
+                            </li>
+                        </ol>
     </div>
     <!-- ========== Start Section of the footer ========== -->
     <%- include("partials/footer.ejs") %>
