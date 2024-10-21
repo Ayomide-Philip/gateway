@@ -29,6 +29,9 @@ const getInvolved = {
       },
     ],
   },
+  opportunitiesToServe: {
+    heading: "Opportunities to Serve",
+  },
 };
 
 export default getInvolved;
