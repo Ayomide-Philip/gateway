@@ -86,6 +86,20 @@ const getInvolved = {
   howToGetInvolved: {
     heading: "How to Get Involved",
     p: "Getting involved is easy! Here are a few steps to get started",
+    list: [
+      {
+        heading: "Pray and Reflect",
+        text: "Consider where God is calling you to serve and what gifts and talents you can offer.",
+      },
+      {
+        heading: "Explore Opportunities",
+        text: "Review the opportunities listed above and think about where you might fit best.",
+      },
+      {
+        heading: "Get Started",
+        text: "Once you’ve found your fit, jump in and start serving! You’ll be guided and supported as you begin your journey.",
+      },
+    ],
   },
 };
 
