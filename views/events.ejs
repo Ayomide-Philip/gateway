@@ -9,9 +9,12 @@
         </video>
         <div class="video-overlay">
             <div>
-                <h1 class="display-4">Relive Our Memorable Church Events</h1>
-                <p class="lead">Explore highlights from our past gatherings, like the Esther Picnic, and see how our
-                    community comes together.</p>
+                <h1 class="display-4">
+                    <%= events.videoBanner.headingDisplay %>
+                </h1>
+                <p class="lead">
+                    <%= events.videoBanner.pLead %>
+                </p>
             </div>
         </div>
     </div>
@@ -20,7 +23,9 @@
 
     <!-- ========== Start section of the welcome message ========== -->
     <div class="container-fluid pt-5 pb-5" style="width: 100%;">
-        <h2 class="display-6 text-center">Celebrating Our Past Events</h2>
+        <h2 class="display-6 text-center">
+            <%= events.heading %>
+        </h2>
         <div class="d-flex flex-column align-items-center" style="width: 100%;">
             <h3 class="text-center">Here Are some of the Video From Our EASTER PICNIC 2024</h3>
             <iframe class="mb-4 d-none d-md-block "
