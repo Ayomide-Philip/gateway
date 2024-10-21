@@ -1,1 +1,1 @@
-## Gateway Baptist Church
+# Gateway Baptist Church
