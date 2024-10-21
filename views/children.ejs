@@ -7,8 +7,12 @@
         </video>
         <div class="video-overlay">
             <div>
-                <h1 class="display-4"><strong>The Children Ministry</strong></h1>
-                <p class="lead">Learn more about the Children Ministry</p>
+                <h1 class="display-4"><strong>
+                        <%= children.videoBanner.headingDisplay%>
+                    </strong></h1>
+                <p class="lead">
+                    <%= children.videoBanner.pLead %>
+                </p>
             </div>
         </div>
     </div>
@@ -17,7 +21,9 @@
     <div class="bg-body-tertiary pb-5 pt-5">
         <!-- ========== Start Section of the main content of the children ministry ========== -->
         <div class="container-fluid">
-            <h2 class="text-center display-6" id="topHeading">Meet Our Children’s Ministry Team</h2>
+            <h2 class="text-center display-6" id="topHeading">
+                <%= children.heading %>
+            </h2>
             <h2>Our Leaders</h2>
             <p>At Gateway Baptist Church, our Children’s Ministry is blessed with a dedicated team of leaders who are
                 passionate about nurturing the spiritual growth of our children. Meet the wonderful people who guide and
