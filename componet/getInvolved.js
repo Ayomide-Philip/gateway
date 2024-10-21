@@ -31,6 +31,28 @@ const getInvolved = {
   },
   opportunitiesToServe: {
     heading: "Opportunities to Serve",
+    opportunities: [
+      {
+        heading: "Children’s Ministry",
+        text: "Help nurture the faith of our youngest members. Opportunities include teaching Sunday School, assisting with Vacation Bible School, and helping with special events.",
+      },
+      {
+        heading: "Teenager Ministry",
+        text: "Support our teens as they navigate their faith and life’s challenges. Opportunities include leading small groups, mentoring, and helping with youth events.",
+      },
+      {
+        heading: "Worship Team",
+        text: "If you have musical talents, consider joining our worship team. We are always looking for vocalists, instrumentalists, and audio/visual technicians.",
+      },
+      {
+        heading: "Hospitality Team",
+        text: "Welcome newcomers and regular attendees with a warm smile. Opportunities include greeting at services, preparing coffee and refreshments, and assisting with church events",
+      },
+      {
+        heading: "Outreach and Missions",
+        text: "Get involved in local and international outreach efforts. Opportunities include organizing community service projects, participating in mission trips, and supporting our partner organizations.",
+      },
+    ],
   },
 };
 
