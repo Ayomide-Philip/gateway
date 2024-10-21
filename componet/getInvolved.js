@@ -15,6 +15,10 @@ const getInvolved = {
         heading: "Grow Spiritually",
         text: "Engage in activities that deepen your faith and understanding of God's Word.",
       },
+      {
+        heading: "Build Community",
+        text: "Form meaningful relationships with fellow church members.",
+      },
     ],
   },
 };
