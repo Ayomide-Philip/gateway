@@ -32,11 +32,16 @@
             <%= getInvolved.whyInvolved.p %>:
         </p>
         <ul>
-            
-            <!-- <li>
-                <p><strong>Grow Spiritually:</strong> Engage in activities that deepen your faith and understanding of
-                    God's Word.</p>
-            </li>
+            <% getInvolved.whyInvolved.why.map((why)=>{ %>
+                <li>
+                    <p><strong>
+                            <%= why.heading %>:
+                        </strong>
+                        <%= why.text %>
+                    </p>
+                </li>
+                <% }) %>
+                    <!--
             <li>
                 <p><strong>Build Community:</strong> Form meaningful relationships with fellow church members.</p>
             </li>
