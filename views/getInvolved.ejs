@@ -18,7 +18,7 @@
     </div>
 
     <!-- ========== End  section of video banner ========== -->
-    <div class="bg-body-tertiary pb-5 ps-4 pt-5">
+    <div class="bg-body-tertiary pb-5 p-4 pt-5">
         <h2 class="display-5" style="text-align: center;">
             <%= getInvolved.heading %>
         </h2>
@@ -45,60 +45,49 @@
         <h2 class="display-6 pb-4 " style="text-align: center;">
             <%= getInvolved.opportunitiesToServe.heading %>
         </h2>
-        <h3>Children’s Ministry</h3>
-        <p>Help nurture the faith of our youngest members. Opportunities include teaching Sunday School, assisting with
-            Vacation Bible School, and helping with special events.</p>
-        <h3>Teenager Ministry</h3>
-        <p>Support our teens as they navigate their faith and life’s challenges. Opportunities include leading small
-            groups, mentoring, and helping with youth events.</p>
-        <h3>Worship Team</h3>
-        <p>If you have musical talents, consider joining our worship team. We are always looking for vocalists,
-            instrumentalists, and audio/visual technicians.</p>
-        <h3>Hospitality Team</h3>
-        <p>Welcome newcomers and regular attendees with a warm smile. Opportunities include greeting at services,
-            preparing coffee and refreshments, and assisting with church events.</p>
-        <h3>Outreach and Missions</h3>
-        <p>Get involved in local and international outreach efforts. Opportunities include organizing community service
-            projects, participating in mission trips, and supporting our partner organizations.</p>
-        <h3>Prayer Ministry</h3>
-        <p>Join our prayer team to support the church and community through prayer. Opportunities include participating
-            in prayer meetings, leading prayer groups, and praying for specific needs.</p>
-        <h3>Small Groups</h3>
-        <p>Facilitate or join a small group to foster deeper connections and spiritual growth. Opportunities include
-            hosting a group in your home, leading discussions, and coordinating activities.</p>
-        <h3>Church Administration</h3>
-        <p>Assist with the administrative needs of the church. Opportunities include office support, communications, and
-            event planning.</p>
-        <h2 class="display-6 pb-4" style="text-align: center;">Special Events and Programs</h2>
-        <h3>Community Service Projects</h3>
-        <p>Join us in serving our local community through various projects such as food drives, neighborhood clean-ups,
-            and outreach to those in need.</p>
-        <h3>Annual Church Retreat</h3>
-        <p>Participate in our annual church retreat, a time of renewal, fellowship, and spiritual growth.</p>
-        <h3>Seasonal Celebrations</h3>
-        <p>Help organize and participate in our seasonal events such as Christmas and Easter celebrations, which bring
-            joy and the message of Christ to our community.</p>
-        <h2 class="display-6 pb-4" style="text-align: center;">How to Get Involved</h2>
-        <p class="lead">Getting involved is easy! Here are a few steps to get started:</p>
-        <ol>
-            <li>
-                <p><strong>Pray and Reflect:</strong> Consider where God is calling you to serve and what gifts and
-                    talents you can offer.</p>
-            </li>
-            <li>
-                <p><strong>Explore Opportunities:</strong> Review the opportunities listed above and think about where
-                    you might fit best.</p>
-            </li>
-            <li>
-                <p><strong>Reach Out:</strong> Contact our Volunteer Coordinator, Lisa Roberts, at <a
-                        href="mailto:gateway4054@gmail.com">gateway4054@gmail.com</a> or <a
-                        href="tel:+2347031686966">Call us</a> to express your interest and learn </p>
-            </li>
-            <li>
-                <p><strong>Get Started:</strong> Once you’ve found your fit, jump in and start serving! You’ll be guided
-                    and supported as you begin your journey.</p>
-            </li>
-        </ol>
+        <% getInvolved.opportunitiesToServe.opportunities.map((opportunities)=>{ %>
+            <h3>
+                <%= opportunities.heading %>
+            </h3>
+            <p>
+                <%= opportunities.text %>
+            </p>
+            <% }) %>
+                <h2 class="display-6 pb-4" style="text-align: center;">Special Events and Programs</h2>
+                <h3>Community Service Projects</h3>
+                <p>Join us in serving our local community through various projects such as food drives, neighborhood
+                    clean-ups,
+                    and outreach to those in need.</p>
+                <h3>Annual Church Retreat</h3>
+                <p>Participate in our annual church retreat, a time of renewal, fellowship, and spiritual growth.</p>
+                <h3>Seasonal Celebrations</h3>
+                <p>Help organize and participate in our seasonal events such as Christmas and Easter celebrations, which
+                    bring
+                    joy and the message of Christ to our community.</p>
+                <h2 class="display-6 pb-4" style="text-align: center;">How to Get Involved</h2>
+                <p class="lead">Getting involved is easy! Here are a few steps to get started:</p>
+                <ol>
+                    <li>
+                        <p><strong>Pray and Reflect:</strong> Consider where God is calling you to serve and what gifts
+                            and
+                            talents you can offer.</p>
+                    </li>
+                    <li>
+                        <p><strong>Explore Opportunities:</strong> Review the opportunities listed above and think about
+                            where
+                            you might fit best.</p>
+                    </li>
+                    <li>
+                        <p><strong>Reach Out:</strong> Contact our Volunteer Coordinator, Lisa Roberts, at <a
+                                href="mailto:gateway4054@gmail.com">gateway4054@gmail.com</a> or <a
+                                href="tel:+2347031686966">Call us</a> to express your interest and learn </p>
+                    </li>
+                    <li>
+                        <p><strong>Get Started:</strong> Once you’ve found your fit, jump in and start serving! You’ll
+                            be guided
+                            and supported as you begin your journey.</p>
+                    </li>
+                </ol>
     </div>
     <!-- ========== Start Section of the footer ========== -->
-    <%- include("partials/header.ejs") %>
+    <%- include("partials/footer.ejs") %>
