@@ -77,6 +77,10 @@ const getInvolved = {
         heading: "Annual Church Retreat",
         text: "Participate in our annual church retreat, a time of renewal, fellowship, and spiritual growth.",
       },
+      {
+        heading: "Seasonal Celebrations",
+        text: "Help organize and participate in our seasonal events such as Christmas and Easter celebrations, which bring joy and the message of Christ to our community.",
+      },
     ],
   },
 };
