@@ -66,6 +66,19 @@ const getInvolved = {
       },
     ],
   },
+  specialEvent: {
+    heading: "Special Events and Programs",
+    list: [
+      {
+        heading: "Community Service Projects",
+        text: "Join us in serving our local community through various projects such as food drives, neighborhood clean-ups, and outreach to those in need.",
+      },
+      {
+        heading: "Annual Church Retreat",
+        text: "Participate in our annual church retreat, a time of renewal, fellowship, and spiritual growth.",
+      },
+    ],
+  },
 };
 
 export default getInvolved;
