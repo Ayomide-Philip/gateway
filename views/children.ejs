@@ -59,62 +59,61 @@
             <p class="pb-5">
                 <%= children.volunteer.text %>
             </p>
-            <h2 class="display-6 text-center">Our Kids in Action</h2>
-            <h3 class="text-center">Here Are some of the Video From Our Children Day</h3>
-            <iframe class="mb-4 d-none d-md-block "
-                src="https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F789766829797271%2F&show_text=false&width=560&t=0"
-                width="98%" height="700px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"></iframe>
-            <iframe class="mb-4 d-block d-md-none "
-                src="https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F789766829797271%2F&show_text=false&width=560&t=0"
-                width="98%" height="373px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"></iframe>
+            <h2 class="display-6 text-center">
+                <%= children.ourKids.heading %>
+            </h2>
+            <h3 class="text-center">
+                <%= children.ourKids.subHeading %>
+            </h3>
+            <% children.ourKids.facebookURL.map((url)=>{ %>
+                <iframe class="mb-4 d-none d-md-block " src=<%=url %>
+                    width="98%" height="700px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
+                    web-share"
+                    allowFullScreen="true"></iframe>
+                <iframe class="mb-4 d-block d-md-none " src=<%=url %>
+                    width="98%" height="373px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;
+                    web-share"
+                    allowFullScreen="true"></iframe>
+                <% }) %>
 
-            <iframe class="mb-4 d-none d-md-block "
-                src="https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F468138169137353%2F&show_text=false&width=560&t=0"
-                width="98%" height="700px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"></iframe>
-            <iframe class="mb-4 d-block d-md-none "
-                src="https://www.facebook.com/plugins/video.php?height=373&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F468138169137353%2F&show_text=false&width=560&t=0"
-                width="98%" height="373px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"></iframe>
-
-            <p class="lead">Our Children’s Ministry is a vibrant community where kids learn, play, and grow
-                together.
-                Here are some snapshots of our children in action:</p>
-            <iframe class="pt-5" width="100%" height="500"
-                src="https://www.youtube.com/embed/2l5HE0gHTmY?si=Agz-KQYGVO94QvH9" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p class="lead">Our Children Presenting Drama to the Church</p>
-            <iframe class="pt-5" width="100%" height="500"
-                src="https://www.youtube.com/embed/5WMkMhIYPpM?si=kKgMMqrTx2ZU59e8" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Our Children at Christmax Carol</p>
-            <iframe class="pt-5" width="100%" height="500"
-                src="https://www.youtube.com/embed/Zd_n7MTK3pE?si=62n4aJ656Sl7vTsS" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Our Chidren in the Bible Chain Competition.</p>
-            <h2 class="display-5">Get Involved</h2>
-            <h2>Volunteers:</h2>
-            <p>Our Children’s Ministry thrives on the dedication of our volunteers. Whether you have a passion for
-                teaching, organizing events, or simply want to make a difference in a child's life, we have a place
-                for
-                you. Training and resources are provided to ensure you feel equipped and confident in your role.</p>
-            <h2>Parents:</h2>
-            <p>We believe that parents are the primary spiritual leaders in their children's lives. We offer
-                resources
-                and support to help you nurture your child's faith at home. Join us for our parent workshops, family
-                devotion nights, and other events designed to strengthen your family's spiritual journey.</p>
+                    <p class="lead">
+                        <%= children.ourKids.pLead %>:
+                    </p>
+                    <iframe class="pt-5" width="100%" height="500"
+                        src="https://www.youtube.com/embed/2l5HE0gHTmY?si=Agz-KQYGVO94QvH9" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="lead">Our Children Presenting Drama to the Church</p>
+                    <iframe class="pt-5" width="100%" height="500"
+                        src="https://www.youtube.com/embed/5WMkMhIYPpM?si=kKgMMqrTx2ZU59e8" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Our Children at Christmax Carol</p>
+                    <iframe class="pt-5" width="100%" height="500"
+                        src="https://www.youtube.com/embed/Zd_n7MTK3pE?si=62n4aJ656Sl7vTsS" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Our Chidren in the Bible Chain Competition.</p>
+                    <h2 class="display-5">Get Involved</h2>
+                    <h2>Volunteers:</h2>
+                    <p>Our Children’s Ministry thrives on the dedication of our volunteers. Whether you have a passion
+                        for
+                        teaching, organizing events, or simply want to make a difference in a child's life, we have a
+                        place
+                        for
+                        you. Training and resources are provided to ensure you feel equipped and confident in your role.
+                    </p>
+                    <h2>Parents:</h2>
+                    <p>We believe that parents are the primary spiritual leaders in their children's lives. We offer
+                        resources
+                        and support to help you nurture your child's faith at home. Join us for our parent workshops,
+                        family
+                        devotion nights, and other events designed to strengthen your family's spiritual journey.</p>
         </div>
         <!-- ========== Start Section of the history of how children church began ========== -->
 
