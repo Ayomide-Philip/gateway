@@ -15,7 +15,6 @@ const events = {
         "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F436082135640598%2F&show_text=false&width=560&t=0",
         "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F398181973004919%2F&show_text=false&width=560&t=0",
         "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fgatewaybaptist.church.33%2Fvideos%2F1998822233878553%2F&show_text=false&width=560&t=0",
-        "",
       ],
     },
     {
