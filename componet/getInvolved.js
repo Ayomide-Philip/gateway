@@ -19,6 +19,14 @@ const getInvolved = {
         heading: "Build Community",
         text: "Form meaningful relationships with fellow church members.",
       },
+      {
+        heading: "Serve Others",
+        text: "Use your gifts and talents to serve the church and the wider community.",
+      },
+      {
+        heading: "Make a Difference",
+        text: "Contribute to the mission and vision of Gateway Baptist Church.",
+      },
     ],
   },
 };
