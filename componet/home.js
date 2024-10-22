@@ -109,6 +109,21 @@ const guidingPastors = [
     objectPosition: " center",
     positionHeld: "Teenagers Pastor",
   },
+  {
+    imageURL: "teenager-pastor",
+    objectPosition: " top",
+    positionHeld: "Teenager Pastor Assistant",
+  },
+  {
+    imageURL: "children",
+    objectPosition: " center",
+    positionHeld: "Children Pastor Assistant",
+  },
+  {
+    imageURL: "evangelism",
+    objectPosition: " center",
+    positionHeld: "Evangelism pastor",
+  },
 ];
 
 export default welcome;
