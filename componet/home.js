@@ -84,7 +84,12 @@ const guidingPastors = [
     objectPosition: " center -20px",
     positionHeld: "Rev'd Dr. Adedeji Emmanuel Ade",
   },
+  {
+    imageURL: "children-pastor2",
+    objectPosition: " center",
+    positionHeld: "Children Pastor",
+  },
 ];
 
 export default welcome;
-export { newsLetter, statementOfFaiths };
+export { newsLetter, statementOfFaiths, guidingPastors };
