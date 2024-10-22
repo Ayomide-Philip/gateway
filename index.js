@@ -5,6 +5,7 @@ import welcome, {
   newsLetter,
   statementOfFaiths,
   guidingPastors,
+  supportiveMistry,
 } from "./componet/home.js";
 import service from "./componet/service.js";
 import requireIp from "request-ip";
@@ -37,6 +38,7 @@ app.get("/", (req, res) => {
     newsLetter: newsLetter,
     statementOfFaiths: statementOfFaiths,
     guidingPastors: guidingPastors,
+    supportiveMistry: supportiveMistry,
   });
 });
 
