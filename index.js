@@ -1,7 +1,11 @@
 import express from "express";
 import bodyParser from "body-parser";
 import morgan from "morgan";
-import welcome, { newsLetter, statementOfFaiths } from "./componet/home.js";
+import welcome, {
+  newsLetter,
+  statementOfFaiths,
+  guidingPastors,
+} from "./componet/home.js";
 import service from "./componet/service.js";
 import requireIp from "request-ip";
 import teenager from "./componet/teenager.js";
@@ -32,6 +36,7 @@ app.get("/", (req, res) => {
     welcome: welcome,
     newsLetter: newsLetter,
     statementOfFaiths: statementOfFaiths,
+    guidingPastors: guidingPastors,
   });
 });
 
