@@ -92,56 +92,19 @@
                             <%= content.pLead %>
                         </p>
                         <% }) %>
-                            <h2 class="display-5">Get Involved</h2>
-                            <h2>Volunteers:</h2>
-                            <p>Our Children’s Ministry thrives on the dedication of our volunteers. Whether you have a
-                                passion
-                                for
-                                teaching, organizing events, or simply want to make a difference in a child's life, we
-                                have a
-                                place
-                                for
-                                you. Training and resources are provided to ensure you feel equipped and confident in
-                                your role.
-                            </p>
-                            <h2>Parents:</h2>
-                            <p>We believe that parents are the primary spiritual leaders in their children's lives. We
-                                offer
-                                resources
-                                and support to help you nurture your child's faith at home. Join us for our parent
-                                workshops,
-                                family
-                                devotion nights, and other events designed to strengthen your family's spiritual
-                                journey.</p>
+                            <h2 class="display-5">
+                                <%= children.getInvolved.heading %>
+                            </h2>
+                            <% children.getInvolved.involved.map((involve)=>{ %>
+                                <h2>
+                                    <%= involve.heading %>:
+                                </h2>
+                                <p>
+                                    <%= involve.text %>
+                                </p>
+                                <% }) %>
         </div>
-        <!-- ========== Start Section of the history of how children church began ========== -->
-
-        <div class="container-fluid" id="history" style="display: none;">
-            <div>
-                <h2 class="text-center mt-4 pt-3">The History of the Children Ministry</h2>
-                <p class="lead">In the Scripture, the Assembly of Gods people compromised of adults(Men & Women), Youths
-                    and Children. Let take a look at the history of the children ministry.As it was recorded in
-                    Deuteronomy 31:11-12. </p>
-                <p> The Church started in 1960 with the combination of adults and children worshipping together. This
-                    continued till 1966 when Ojesinas and others joined the church. Though there were some disadvantage
-                    in bringing adults and children together under the same roof for worship, learning the samethings,
-                    and even listing to the same lecture and Sermons; nevertheless, the disadvantages are more than the
-                    advantages.</p>
-                <p>Early in the 1973, a building was erected for the children, and other workers joined them. The first
-                    building was erected on the Nigerian Railways land. In May, a final court verdict to demolish the
-                    erected building on the land was given. On 1st August 2009, the building was demolished and a new
-                    one was proposed to be built on the piece of land that the church acquired very near the main church
-                    auditorium.</p>
-                <p>On 3rd August 2009, the new Children Church Foundation was laid. The following people took part in
-                    the Foundation laying service: <strong>Revd Dr. A.A. Alade, Revd E. Ade Adedeji,and Pastor (Mrs.)
-                        F.O. Adedeji, Pastor Ranti Amoo, Pastor J.A Adesope, Revd Dr. Olaniyan (The Baptist Conference
-                        Secretary of Oyo West), Mrs. Alao, Mr. Ogundeji, Juwon Adedeji, Precious Ayankeye and
-                        others.</strong> The building was completed to a stage and was dedicated temporarily for use
-                    October 26th by some members led by Revd Dr. A.A Alade before the celebration of the Goodness of God
-                    that took place that sunday.</p>
-            </div>
-            <!-- ========== End Section of the history of how children church began ========== -->
-        </div>
-        <!-- ========== End Section of the main content of the children ministry ========== -->
+    </div>
+    <!-- ========== End Section of the main content of the children ministry ========== -->
     </div>
     <%- include("partials/footer.ejs") %>
