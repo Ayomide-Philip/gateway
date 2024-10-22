@@ -6,6 +6,7 @@ import welcome, {
   statementOfFaiths,
   guidingPastors,
   supportiveMistry,
+  exploreChurch,
 } from "./componet/home.js";
 import service from "./componet/service.js";
 import requireIp from "request-ip";
@@ -39,6 +40,7 @@ app.get("/", (req, res) => {
     statementOfFaiths: statementOfFaiths,
     guidingPastors: guidingPastors,
     supportiveMistry: supportiveMistry,
+    exploreChurch: exploreChurch,
   });
 });
 
