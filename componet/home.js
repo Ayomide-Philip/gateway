@@ -78,5 +78,13 @@ const statementOfFaiths = {
   ],
 };
 
+const guidingPastors = [
+  {
+    imageURL: "Senior-revd",
+    objectPosition: " center -20px",
+    positionHeld: "Rev'd Dr. Adedeji Emmanuel Ade",
+  },
+];
+
 export default welcome;
 export { newsLetter, statementOfFaiths };
