@@ -56,193 +56,36 @@
                                 </div>
                         </div>
                     </div>
-                    <% }) % </div>
+                    <% }) %>
+
             </div>
         </div>
-        <!-- ========== End Section of the navigation section ========== -->
-        <div class="mb-5">
-            <h2 style="text-align: center;" class="display-6 pb-3"><strong>Supportive Ministry of Gateway Baptist
-                    Church</strong></h2>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+    </div>
+    <!-- ========== End Section of the navigation section ========== -->
+    <div class="mb-5">
+        <h2 style="text-align: center;" class="display-6 pb-3"><strong>Supportive Ministry of Gateway Baptist
+                Church</strong></h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
 
+                <% supportiveMistry.map((supportive)=>{ %>
                     <div class="col d-flex justify-content-center">
                         <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/widows-affairs.jpg"
-                                class="card-img-top custom-card-img" alt="Children Pastor"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center -1px;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Education, Empowerment, and
-                                        Widow’s Support</strong></small>
-                            </div>
+                            <img src="./images/supportive-Pastors/<%= supportive.imageURL %>.jpg"
+                                class="card-img-top custom-card-img" alt=<%=supportive.positionHeld %>
+                            style="width: 100%; height: 350px; object-fit: cover; object-position: <%=
+                                supportive.objectPosition %> ;">
+                                <div class="card-footer">
+                                    <small class="text-body-secondary ms-4"><strong>
+                                            <%=supportive.positionHeld %>
+                                        </strong></small>
+                                </div>
                         </div>
                     </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/deacon-weeding.jpg"
-                                class="card-img-top custom-card-img" alt="Children Pastor"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary"><strong>Wedding & Young Married Wife
-                                        Affair Coordinator</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/deacon-youth.jpg" class="card-img-top custom-card-img"
-                                alt="Children Pastor"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center -1px;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong> Youth and Empowerment Affairs <br>
-                                        Coordinator</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/teen-cord.jpg" class="card-img-top custom-card-img"
-                                alt="Children Pastor"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center -1px;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Teenagers Coordinator</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/deaconate-chairperson.jpg"
-                                class="card-img-top custom-card-img" alt="deaconate-chairperson"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center -1px;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Deaconate Chair Person</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/deacon-fellowship.jpg"
-                                class="card-img-top custom-card-img" alt="Fellowship and House Caring Service"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center -1px;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary"><strong>Cell Group Coordinator</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/deaconation.jpg" class="card-img-top custom-card-img"
-                                alt="Children Pastor"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Discipleship Program</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/social-maintance.jpg"
-                                class="card-img-top custom-card-img" alt="Children Pastor"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Social and Maintenance</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/church-development.jpg"
-                                class="card-img-top custom-card-img" alt="Children Pastor"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Church Development</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/pastorium-welfare.jpg"
-                                class="card-img-top custom-card-img" alt="Pastorium Welfare"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Pastorium Welfare</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/old-age-affairs.jpg"
-                                class="card-img-top custom-card-img" alt="Old age affairs"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Old age affairs</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/deacon-evanglism.jpg"
-                                class="card-img-top custom-card-img" alt="Evangelism"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Evangelism</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/evan-2.jpg" class="card-img-top custom-card-img"
-                                alt="Evangelism"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Evangelism</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/resolutionCommittee.jpg"
-                                class="card-img-top custom-card-img" alt="Evangelism"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Resolution committee
-                                        Chairperson</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col d-flex justify-content-center">
-                        <div class="card text-center" style="width: 25rem;">
-                            <img src="./images/supportive-Pastors/ogyiigunPrecher.jpg"
-                                class="card-img-top custom-card-img" alt="Evangelism"
-                                style="width: 100%; height: 350px; object-fit: cover; object-position: center;">
-                            <div class="card-footer">
-                                <small class="text-body-secondary ms-4"><strong>Oyiigun Preaching
-                                        Station</strong></small>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
+                    <% }) %>
             </div>
         </div>
+    </div>
     </div>
     <!-- ========== Start Section of the supportive ministry ========== -->
 
