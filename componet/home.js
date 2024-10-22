@@ -126,5 +126,53 @@ const guidingPastors = [
   },
 ];
 
+const supportiveMistry = [
+  {
+    imageURL: "widows-affairs",
+    objectPosition: " center -1px",
+    positionHeld: "Education, Empowerment, and Widow’s Support",
+  },
+  {
+    imageURL: "deacon-weeding",
+    objectPosition: " center",
+    positionHeld: "Wedding & Young Married Wife Affair Coordinator",
+  },
+  {
+    imageURL: "deacon-youth",
+    objectPosition: " center -1px",
+    positionHeld: "Youth and Empowerment Affairs Coordinator",
+  },
+  {
+    imageURL: "teen-cord",
+    objectPosition: " center -1px",
+    positionHeld: "Teenagers Coordinator",
+  },
+  {
+    imageURL: "deaconate-chairperson",
+    objectPosition: " center -1px",
+    positionHeld: "Deaconate Chair Person",
+  },
+  {
+    imageURL: "deacon-fellowship",
+    objectPosition: " center -1px",
+    positionHeld: "Cell Group Coordinator",
+  },
+  {
+    imageURL: "deaconation",
+    objectPosition: " center",
+    positionHeld: "Discipleship Program",
+  },
+  {
+    imageURL: "social-maintance",
+    objectPosition: " center",
+    positionHeld: "Social and Maintenance",
+  },
+  {
+    imageURL: "church-development",
+    objectPosition: " center",
+    positionHeld: "Church Development",
+  },
+];
+
 export default welcome;
-export { newsLetter, statementOfFaiths, guidingPastors };
+export { newsLetter, statementOfFaiths, guidingPastors, supportiveMistry };
