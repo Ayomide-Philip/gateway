@@ -204,5 +204,39 @@ const supportiveMistry = [
   },
 ];
 
+const exploreChurch = [
+  {
+    imageURL: "history",
+    title: "History of Gateway Baptist Church",
+    URL: "history",
+  },
+  {
+    imageURL: "mission",
+    title: "mission of Gateway Baptist Church",
+    URL: "mission",
+  },
+  {
+    imageURL: "donate-pic",
+    title: "Donate of Gateway Baptist Church",
+    URL: "donate",
+  },
+  {
+    imageURL: "children-pic",
+    title: "The Children Ministry",
+    URL: "children",
+  },
+  {
+    imageURL: "teenager-pic",
+    title: "The Teenagers Ministry",
+    URL: "teenager",
+  },
+];
+
 export default welcome;
-export { newsLetter, statementOfFaiths, guidingPastors, supportiveMistry };
+export {
+  newsLetter,
+  statementOfFaiths,
+  guidingPastors,
+  supportiveMistry,
+  exploreChurch,
+};
