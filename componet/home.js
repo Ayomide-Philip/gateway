@@ -130,12 +130,12 @@ const supportiveMistry = [
   {
     imageURL: "widows-affairs",
     objectPosition: " center -1px",
-    positionHeld: "Education, Empowerment, and Widow’s Support",
+    positionHeld: "Education and Widow’s Support",
   },
   {
     imageURL: "deacon-weeding",
     objectPosition: " center",
-    positionHeld: "Wedding & Young Married Wife Affair Coordinator",
+    positionHeld: "Wedding & Young Married Wife Affair",
   },
   {
     imageURL: "deacon-youth",
@@ -171,6 +171,36 @@ const supportiveMistry = [
     imageURL: "church-development",
     objectPosition: " center",
     positionHeld: "Church Development",
+  },
+  {
+    imageURL: "pastorium-welfare",
+    objectPosition: " center",
+    positionHeld: "Pastorium Welfare",
+  },
+  {
+    imageURL: "old-age-affairs",
+    objectPosition: " center",
+    positionHeld: "Old age affairs",
+  },
+  {
+    imageURL: "deacon-evanglism",
+    objectPosition: " center",
+    positionHeld: "Evangelism",
+  },
+  {
+    imageURL: "evan-2",
+    objectPosition: " center",
+    positionHeld: "Evangelism",
+  },
+  {
+    imageURL: "resolutionCommittee",
+    objectPosition: " center",
+    positionHeld: "Resolution committee Chairperson",
+  },
+  {
+    imageURL: "ogyiigunPrecher",
+    objectPosition: " center",
+    positionHeld: "Oyiigun Preaching Station",
   },
 ];
 
