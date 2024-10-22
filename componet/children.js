@@ -59,6 +59,16 @@ const children = {
   },
   getInvolved: {
     heading: "Get Involved",
+    involved: [
+      {
+        heading: "Volunteers",
+        text: "Our Children’s Ministry thrives on the dedication of our volunteers. Whether you have a passion for teaching, organizing events, or simply want to make a difference in a child's life, we have a place for you. Training and resources are provided to ensure you feel equipped and confident in your role.",
+      },
+      {
+        heading: "Parents",
+        text:"We believe that parents are the primary spiritual leaders in their children's lives. We offer resources and support to help you nurture your child's faith at home. Join us for our parent workshops, family devotion nights, and other events designed to strengthen your family's spiritual journey."
+      },
+    ],
   },
 };
 
