@@ -42,6 +42,20 @@ const children = {
     ],
     pLead:
       "Our Children’s Ministry is a vibrant community where kids learn, play, and grow together. Here are some snapshots of our children in action",
+    youtubeURL: [
+      {
+        url: "https://www.youtube.com/embed/2l5HE0gHTmY?si=Agz-KQYGVO94QvH9",
+        pLead: "Our Children Presenting Drama to the Church",
+      },
+      {
+        url: "https://www.youtube.com/embed/5WMkMhIYPpM?si=kKgMMqrTx2ZU59e8",
+        pLead: "Our Children at Christmax Carol",
+      },
+      {
+        url: "https://www.youtube.com/embed/Zd_n7MTK3pE?si=62n4aJ656Sl7vTsS",
+        pLead: "Our Chidren in the Bible Chain Competition.",
+      },
+    ],
   },
 };
 
