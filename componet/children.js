@@ -57,6 +57,9 @@ const children = {
       },
     ],
   },
+  getInvolved: {
+    heading: "Get Involved",
+  },
 };
 
 export default children;
