@@ -89,6 +89,26 @@ const guidingPastors = [
     objectPosition: " center",
     positionHeld: "Children Pastor",
   },
+  {
+    imageURL: "yoruba-service-pastor",
+    objectPosition: " center",
+    positionHeld: "Yoruba Service Pastor",
+  },
+  {
+    imageURL: "English-service",
+    objectPosition: " center",
+    positionHeld: "English Service Pastor",
+  },
+  {
+    imageURL: "ogo-oluwa",
+    objectPosition: " center",
+    positionHeld: "Ogo Oluwa Baptist Church",
+  },
+  {
+    imageURL: "teen-pastor",
+    objectPosition: " center",
+    positionHeld: "Teenagers Pastor",
+  },
 ];
 
 export default welcome;
