@@ -97,60 +97,20 @@
         <h2 class="text-center display-6 pb-3"><strong>Explore Our Church</strong></h2>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-flex justify-content-center">
-
-                <div class="col d-flex justify-content-center">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/history.jpg" class="card-img-top" alt="History Of Gateway Baptist Church">
-                        <div class="card-body">
-                            <h5 class="card-title">History of Gateway Baptist Church</h5>
-                            <a href="/history" class="btn btn-outline-dark">Learn More</a>
+                <% exploreChurch.map((explore)=>{ %>
+                    <div class="col d-flex justify-content-center">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img src="./images/<%= explore.imageURL %>.jpg" height="200px" class="card-img-top"
+                                alt=<%=explore.title %>>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <%= explore.title %>
+                                </h5>
+                                <a href="/<%= explore.URL %>" class="btn btn-outline-dark">Learn More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col d-flex justify-content-center">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/mission.jpg" class="card-img-top" alt="Mission Of Gateway Baptist Church">
-                        <div class="card-body">
-                            <h5 class="card-title">Mission of Gateway Baptist Church</h5>
-                            <a href="/mission" class="btn btn-outline-dark">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col d-flex justify-content-center">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/donate-pic.jpg" height="191px" class="card-img-top"
-                            alt="History Of Gateway Baptist Church">
-                        <div class="card-body">
-                            <h5 class="card-title">Donate to Gateway Baptist Church</h5>
-                            <a href="/donate" class="btn btn-outline-dark">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col d-flex justify-content-center">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/children-pic.jpg" class="card-img-top"
-                            alt="History Of Gateway Baptist Church">
-                        <div class="card-body">
-                            <h5 class="card-title">The Children Ministry</h5>
-                            <a href="/children" class="btn btn-outline-dark">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col d-flex justify-content-center">
-                    <div class="card text-center" style="width: 18rem;">
-                        <img src="./images/teenager-pic.jpg" class="card-img-top"
-                            alt="History Of Gateway Baptist Church">
-                        <div class="card-body">
-                            <h5 class="card-title">The Teenagers Ministry</h5>
-                            <a href="/teenager" class="btn btn-outline-dark">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
+                    <% }) %>
             </div>
         </div>
 
