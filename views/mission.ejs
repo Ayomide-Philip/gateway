@@ -93,8 +93,9 @@
                 <h5 class="card-title">
                     <%= mission.missionPDF.card.title %>
                 </h5>
-                <p class="card-text">If you want to be able to access the Mission, aims and goal of our church on your
-                    phone at anytime you can down load the church PDF, to get it at your comfort.</p>
+                <p class="card-text">
+                    <%= mission.missionPDF.card.text %>
+                </p>
                 <a href="./resources/<%= mission.missionPDF.card.pdfURL %>.pdf" target="_blank"
                     rel="noopener noreferrer" class="btn btn-primary">Download Now</a>
             </div>
