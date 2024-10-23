@@ -68,70 +68,38 @@
                                 </li>
                                 <% }) %>
                         </ol>
-                        <li>
-                            <p><strong>To encourage group activities for enhancing the growth of the
-                                    church.</strong>
-                            </p>
-                        </li>
-                        <li>
-                            <p><strong>To establish and maintain School(s) where children shall be educated
-                                    under
-                                    Christian
-                                    influence.</strong></p>
-                        </li>
-                        <li>
-                            <p><strong>To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist
-                                    Conference,
-                                    and the
-                                    Nigeria Baptist Convention in carrying out their aims and objectives as
-                                    setout in
-                                    their
-                                    respective constitution and bye-laws. </strong></p>
-                        </li>
-                        <li>
-                            <p><strong>To carry out the financial duties laid down in the "Accounting
-                                    Regulations and
-                                    procedure"
-                                    as may be formulated for the church.</strong></p>
-                        </li>
-                        <li>
-                            <p><strong>To worship God in Spirit and truth.</strong></p>
-                        </li>
-                        <li>
-                            <p><strong>To observe the ordinances of Baptism by immersion and the Lord's
-                                    supper.</strong>
-                            </p>
-                        </li>
-                        <li>
-                            <p><strong>To obeserve all other functions as laid down by the Nigerian Baptist
-                                    Convention.</strong>
-                            </p>
-                        </li>
-                        <li>
-                            <p><strong>To do all such other lawful things as are incidental or conducive to the
-                                    attainment of
-                                    the above objects.</strong></p>
-                        </li>
+                        <% mission.list.map((mission)=>{ %>
+                            <li>
+                                <p><strong>
+                                        <%= mission %>
+                                    </strong>
+                                </p>
+                            </li>
+                            <% }) %>
             </ol>
         </div>
     </div>
     <div class="p-5 bg-body-tertiary d-flex flex-column align-items-center">
         <div class="mb-5">
-            <h1 class="display-6 text-center">Download To access our church Mission, aims and goal Everytime.</h1>
+            <h1 class="display-6 text-center">
+                <%= mission.missionPDF.heading %>
+            </h1>
         </div>
         <div class="card text-center" style="width: 18rem;">
-            <img src="./images/missinpdfpic.jpg"
+            <img src="./images/<%= mission.missionPDF.card.imageURL %>.jpg"
                 style="width: 100%; height: 350px; object-fit: cover; object-position: center -1px;"
                 class="card-img-top" alt="History Of Gateway Baptist Church">
             <div class="card-body">
-                <h5 class="card-title">Mission, aims and goal of Gateway Baptist Church</h5>
+                <h5 class="card-title">
+                    <%= mission.missionPDF.card.title %>
+                </h5>
                 <p class="card-text">If you want to be able to access the Mission, aims and goal of our church on your
                     phone at anytime you can down load the church PDF, to get it at your comfort.</p>
-                <a href="./resources/gatwaybaptistaimsandgoals.pdf" target="_blank" rel="noopener noreferrer"
-                    class="btn btn-primary">Download Now</a>
+                <a href="./resources/<%= mission.missionPDF.card.pdfURL %>.pdf" target="_blank"
+                    rel="noopener noreferrer" class="btn btn-primary">Download Now</a>
             </div>
             <div class="card-footer text-body-secondary">
-                2 days ago
+                <%= mission.missionPDF.card.date %>
             </div>
         </div>
     </div>
