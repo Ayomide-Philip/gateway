@@ -50,7 +50,18 @@ const mission = {
     "To worship God in Spirit and truth.",
     "To observe the ordinances of Baptism by immersion and the Lord's supper.",
     "To obeserve all other functions as laid down by the Nigerian Baptist Convention.",
+    "To do all such other lawful things as are incidental or conducive to the attainment of the above objects.",
   ],
+  missionPDF: {
+    heading: "Download To access our church Mission, aims and goal Everytime.",
+    card: {
+      title: "Mission, aims and goal of Gateway Baptist Church",
+      text: "If you want to be able to access the Mission, aims and goal of our church on your phone at anytime you can down load the church PDF, to get it at your comfort.",
+      date: new Date().toUTCString(),
+      pdfURL: "gatwaybaptistaimsandgoals",
+      imageURL: "missinpdfpic",
+    },
+  },
 };
 
 export default mission;
