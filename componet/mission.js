@@ -21,6 +21,9 @@ const mission = {
         blockQuoteFooter: "Matthew 28:9-20",
       },
     ],
+    mission: {
+      heading: "The following is then Our Mission Statement",
+    },
   },
 };
 
