@@ -42,54 +42,55 @@
                     </figure>
                     <% }) %>
 
-                        <p>The following is then Our Mission Statement:</p>
-                        <p>To bring people to jesus and membership in his family.</p>
-                        <p>To develop them to Christ like maturity.</p>
-                        <p>To equip them for ministry in the church and for life mission in the world, and to magnify
-                            Gods name
-                            as a result.</p>
+                        <h5>
+                            <strong>
+                                <%= mission.greatCommission.mission.heading %>:
+                            </strong>
+                        </h5>
+                        <ul>
+                            <% mission.greatCommission.mission.list.map((list)=>{ %>
+                                <li>
+                                    <%= list %>
+                                </li>
+                                <% }) %>
+                        </ul>
                         <li>
-                            <p><strong>To organize and maintain the following programmes and departments.</strong></p>
+                            <p><strong>
+                                    <%= mission.departements.heading %>
+                                </strong></p>
                         </li>
                         <ol type="A">
-                            <li>
-                                <p>Sunday School;</p>
-                            </li>
-                            <li>
-                                <p>Church Traning Programme;</p>
-                            </li>
-                            <li>
-                                <p>Women Missionary Union;</p>
-                            </li>
-                            <li>
-                                <p>Men Missionary Union;</p>
-                            </li>
-                            <li>
-                                <p>House Fellowship / Cell Groups;</p>
-                            </li>
-                            <li>
-                                <p>And any other programmes and departments as may be approved by the Nigerian Baptist
-                                    Convention.</p>
-                            </li>
+                            <% mission.departements.list.map((departements)=>{ %>
+                                <li>
+                                    <p>
+                                        <%= departements %>.
+                                    </p>
+                                </li>
+                                <% }) %>
                         </ol>
                         <li>
-                            <p><strong>To encourage group activities for enhancing the growth of the church.</strong>
+                            <p><strong>To encourage group activities for enhancing the growth of the
+                                    church.</strong>
                             </p>
                         </li>
                         <li>
-                            <p><strong>To establish and maintain School(s) where children shall be educated under
+                            <p><strong>To establish and maintain School(s) where children shall be educated
+                                    under
                                     Christian
                                     influence.</strong></p>
                         </li>
                         <li>
-                            <p><strong>To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist Conference,
+                            <p><strong>To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist
+                                    Conference,
                                     and the
-                                    Nigeria Baptist Convention in carrying out their aims and objectives as setout in
+                                    Nigeria Baptist Convention in carrying out their aims and objectives as
+                                    setout in
                                     their
                                     respective constitution and bye-laws. </strong></p>
                         </li>
                         <li>
-                            <p><strong>To carry out the financial duties laid down in the "Accounting Regulations and
+                            <p><strong>To carry out the financial duties laid down in the "Accounting
+                                    Regulations and
                                     procedure"
                                     as may be formulated for the church.</strong></p>
                         </li>
@@ -97,7 +98,8 @@
                             <p><strong>To worship God in Spirit and truth.</strong></p>
                         </li>
                         <li>
-                            <p><strong>To observe the ordinances of Baptism by immersion and the Lord's supper.</strong>
+                            <p><strong>To observe the ordinances of Baptism by immersion and the Lord's
+                                    supper.</strong>
                             </p>
                         </li>
                         <li>
