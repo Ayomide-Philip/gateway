@@ -46,7 +46,10 @@ const mission = {
     "To encourage group activities for enhancing the growth of the church.",
     "To establish and maintain School(s) where children shall be educated under Christian influence.",
     "To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist Conference, and the Nigeria Baptist Convention in carrying out their aims and objectives as setout in their respective constitution and bye-laws.",
-    ""
+    "To carry out the financial duties laid down in the 'Accounting Regulations and procedure' as may be formulated for the church.",
+    "To worship God in Spirit and truth.",
+    "To observe the ordinances of Baptism by immersion and the Lord's supper.",
+    "To obeserve all other functions as laid down by the Nigerian Baptist Convention.",
   ],
 };
 
