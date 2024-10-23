@@ -23,6 +23,11 @@ const mission = {
     ],
     mission: {
       heading: "The following is then Our Mission Statement",
+      list: [
+        "To bring people to jesus and membership in his family.",
+        "To develop them to Christ like maturity.",
+        "To equip them for ministry in the church and for life mission in the world, and to magnify Gods name as a result.",
+      ],
     },
   },
 };
