@@ -30,6 +30,24 @@ const mission = {
       ],
     },
   },
+  departements: {
+    heading:
+      "To organize and maintain the following programmes and departments.",
+    list: [
+      "Sunday School",
+      "Church Traning Programme",
+      "Women Missionary Union",
+      "Men Missionary Union",
+      "House Fellowship / Cell Groups",
+      "And any other programmes and departments as may be approved by the Nigerian Baptist Convention",
+    ],
+  },
+  list: [
+    "To encourage group activities for enhancing the growth of the church.",
+    "To establish and maintain School(s) where children shall be educated under Christian influence.",
+    "To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist Conference, and the Nigeria Baptist Convention in carrying out their aims and objectives as setout in their respective constitution and bye-laws.",
+    ""
+  ],
 };
 
 export default mission;
