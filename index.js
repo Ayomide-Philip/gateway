@@ -16,6 +16,7 @@ import donate from "./componet/donate.js";
 import getInvolved from "./componet/getInvolved.js";
 import events from "./componet/events.js";
 import children from "./componet/children.js";
+import mission from "./componet/mission.js";
 
 const app = express();
 const port = 3000;
@@ -92,6 +93,7 @@ app.get("/mission", (req, res) => {
   req.route.path == "/mission" ? (userRoute = "Mission") : null;
   res.render("mission.ejs", {
     userRoute: userRoute,
+    mission: mission,
   });
 });
 
