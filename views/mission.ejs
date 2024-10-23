@@ -29,83 +29,87 @@
                             <%= mission.greatCommission.heading %>
                         </strong></p>
                 </li>
-                <figure class="text-center">
-                    <blockquote class="blockquote">
-                        <p>"Love the Lord your God with all your heart and with your soul and with all your mind... Love
-                            your neighbour as yourself. All the law Prophets hang on these two commandement..."</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                        <cite title="Source Title"><strong>Matthew 22:37-40</strong></cite>
-                    </figcaption>
-                </figure>
-                <figure class="text-center">
-                    <blockquote class="blockquote">
-                        <p>"Go and make disciples of all nation baptizing them in the name of the Father and the Son and
-                            the Holy Spirit, and teaching them to obey everything i have commanded you."</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                        <cite title="Source Title"><strong>Matthew 28:9-20</strong></cite>
-                    </figcaption>
-                </figure>
-                <p>The following is then Our Mission Statement:</p>
-                <p>To bring people to jesus and membership in his family.</p>
-                <p>To develop them to Christ like maturity.</p>
-                <p>To equip them for ministry in the church and for life mission in the world, and to magnify Gods name
-                    as a result.</p>
-                <li>
-                    <p><strong>To organize and maintain the following programmes and departments.</strong></p>
-                </li>
-                <ol type="A">
-                    <li>
-                        <p>Sunday School;</p>
-                    </li>
-                    <li>
-                        <p>Church Traning Programme;</p>
-                    </li>
-                    <li>
-                        <p>Women Missionary Union;</p>
-                    </li>
-                    <li>
-                        <p>Men Missionary Union;</p>
-                    </li>
-                    <li>
-                        <p>House Fellowship / Cell Groups;</p>
-                    </li>
-                    <li>
-                        <p>And any other programmes and departments as may be approved by the Nigerian Baptist
-                            Convention.</p>
-                    </li>
-                </ol>
-                <li>
-                    <p><strong>To encourage group activities for enhancing the growth of the church.</strong></p>
-                </li>
-                <li>
-                    <p><strong>To establish and maintain School(s) where children shall be educated under Christian
-                            influence.</strong></p>
-                </li>
-                <li>
-                    <p><strong>To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist Conference, and the
-                            Nigeria Baptist Convention in carrying out their aims and objectives as setout in their
-                            respective constitution and bye-laws. </strong></p>
-                </li>
-                <li>
-                    <p><strong>To carry out the financial duties laid down in the "Accounting Regulations and procedure"
-                            as may be formulated for the church.</strong></p>
-                </li>
-                <li>
-                    <p><strong>To worship God in Spirit and truth.</strong></p>
-                </li>
-                <li>
-                    <p><strong>To observe the ordinances of Baptism by immersion and the Lord's supper.</strong></p>
-                </li>
-                <li>
-                    <p><strong>To obeserve all other functions as laid down by the Nigerian Baptist Convention.</strong>
-                    </p>
-                </li>
-                <li>
-                    <p><strong>To do all such other lawful things as are incidental or conducive to the attainment of
-                            the above objects.</strong></p>
-                </li>
+                <% mission.greatCommission.figure.map((figure)=>{ %>
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>"<%= figure.blockQuote %>"</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            <cite title="Source Title"><strong>
+                                    <%= figure.blockQuoteFooter %>
+                                </strong></cite>
+                        </figcaption>
+                    </figure>
+                    <% }) %>
+
+                        <p>The following is then Our Mission Statement:</p>
+                        <p>To bring people to jesus and membership in his family.</p>
+                        <p>To develop them to Christ like maturity.</p>
+                        <p>To equip them for ministry in the church and for life mission in the world, and to magnify
+                            Gods name
+                            as a result.</p>
+                        <li>
+                            <p><strong>To organize and maintain the following programmes and departments.</strong></p>
+                        </li>
+                        <ol type="A">
+                            <li>
+                                <p>Sunday School;</p>
+                            </li>
+                            <li>
+                                <p>Church Traning Programme;</p>
+                            </li>
+                            <li>
+                                <p>Women Missionary Union;</p>
+                            </li>
+                            <li>
+                                <p>Men Missionary Union;</p>
+                            </li>
+                            <li>
+                                <p>House Fellowship / Cell Groups;</p>
+                            </li>
+                            <li>
+                                <p>And any other programmes and departments as may be approved by the Nigerian Baptist
+                                    Convention.</p>
+                            </li>
+                        </ol>
+                        <li>
+                            <p><strong>To encourage group activities for enhancing the growth of the church.</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>To establish and maintain School(s) where children shall be educated under
+                                    Christian
+                                    influence.</strong></p>
+                        </li>
+                        <li>
+                            <p><strong>To co-operate with the (Emmanuel) Baptist Association, Ibadan Baptist Conference,
+                                    and the
+                                    Nigeria Baptist Convention in carrying out their aims and objectives as setout in
+                                    their
+                                    respective constitution and bye-laws. </strong></p>
+                        </li>
+                        <li>
+                            <p><strong>To carry out the financial duties laid down in the "Accounting Regulations and
+                                    procedure"
+                                    as may be formulated for the church.</strong></p>
+                        </li>
+                        <li>
+                            <p><strong>To worship God in Spirit and truth.</strong></p>
+                        </li>
+                        <li>
+                            <p><strong>To observe the ordinances of Baptism by immersion and the Lord's supper.</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>To obeserve all other functions as laid down by the Nigerian Baptist
+                                    Convention.</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <p><strong>To do all such other lawful things as are incidental or conducive to the
+                                    attainment of
+                                    the above objects.</strong></p>
+                        </li>
             </ol>
         </div>
     </div>
