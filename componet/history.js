@@ -27,6 +27,10 @@ const history = {
       "When the church was growing with increasing number of worshippers, the late Deacon Amos Jolaade Adegun was deployed from the mother church to succeed late Deacon Lawore, as the leader of the church. However, Chief M.O Ogunnowo and other church members worked tirelessly to sustain the the progress achieved then in the church. It would also be necessary here to mention that love had been existing in Gateway Baptist Church for a long time ago.",
     ],
   },
+  whyGateway: {
+    heading: `Why the name was "Gateway" Baptist Church?`,
+    p: `Have you ever wondered why the church was named "Gateway"? As at 1960, there was only an entry point from the northern part of the country. At the site are of the church was the airport. Also, it was and still is the only south-north route for the Nigeria Railway. At that time, hardly could anybody come to visit the Western Region without passing through the Sanngo area of the city. The worshippers, through the divine inspiration as voiced by Deacon Lawore, then leader of the preaching station, then considered "GATEWAY" BAPTIST CHURCH as the name because it was, and still is the Gateway to Heaven, Paradise, Saviour and salvation as well as, break-through, success, miracles, blessings, redemption and long life and prosperity.`,
+  },
 };
 
 export default history;
