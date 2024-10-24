@@ -72,17 +72,22 @@
         <!-- ========== End Section of the Pioneer Worshippers ========== -->
         <!-- ========== Start Section of the Construction of the New church building ========== -->
         <div class="pt-4 ms-3">
-            <h2 class="h4">Construction the Church Building:</h2>
-            <p>In the year 1969, the entire members of the church decided to enlarge the mud building then used as
-                church. The first Building Committee was inaugurated, having Pa. T.A Aderele as the Chairman, while
-                others members were:</p>
+            <h2 class="h4">
+                <%= history.churchConstruction.heading %>:
+            </h2>
+            <p>
+                <%= history.churchConstruction.p1 %>:
+            </p>
             <ul>
-                <li>Dr. J.O Ojesina;</li>
-                <li>Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary;</li>
-                <li>Pa. D.O. Balogun.</li>
+                <% history.churchConstruction.lists.map((li)=>{ %>
+                    <li>
+                        <%= li %>.
+                    </li>
+                    <% }) %>
             </ul>
-            <p>The younger brother of the Chairman of the Building Committee, Arc. Aderele, of blessed memory, designed
-                the present church structure.</p>
+            <p>
+                <%= history.churchConstruction.p2 %>
+            </p>
         </div>
         <!-- ========== End Section of the Construction of the New church building ========== -->
     </div>
