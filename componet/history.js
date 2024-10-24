@@ -21,6 +21,11 @@ const history = {
         "Agodi Prison",
       ],
     },
+    remainingP: [
+      "Of the place mapped out, the only place the RIEL Club succeeded in planting a church at that time was Sanngo.The church was the first church to be established at the area Sanngo and environs. The initial church service was held at Late Pa. James Alabis house. The host was popularly known as 'Baba Ikaramu'. Baba Ikaramu house was located opposite the Nigerian Railway line, Bodija Housing Estate, Sanngo-Elewure, Ibadan.",
+      "Soon after the church premises got acquired by the Government of Western Region. Thus, the church moved to Baba Ikaramus (Pa. James Alabis) house. The house was near the Railway Staff Headquaters, Sanngo Ibadan. When the number of the worshippers increased significantly, a tent was erected very close to the present church building. However, within three years, a move was made to dispose of the piece of Lands. The entire members contributed money to purchase the land. A small building was erected through communal labour when the Western Nigeria Town Planning Authority approve the proposed building plan for the church.",
+      "When the church was growing with increasing number of worshippers, the late Deacon Amos Jolaade Adegun was deployed from the mother church to succeed late Deacon Lawore, as the leader of the church. However, Chief M.O Ogunnowo and other church members worked tirelessly to sustain the the progress achieved then in the church. It would also be necessary here to mention that love had been existing in Gateway Baptist Church for a long time ago.",
+    ],
   },
 };
 
