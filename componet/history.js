@@ -6,3 +6,5 @@ const history = {
     "Learn more about our church"
   ),
 };
+
+export default history;
