@@ -31,9 +31,10 @@ const history = {
     heading: `Why the name was "Gateway" Baptist Church?`,
     p: `Have you ever wondered why the church was named "Gateway"? As at 1960, there was only an entry point from the northern part of the country. At the site are of the church was the airport. Also, it was and still is the only south-north route for the Nigeria Railway. At that time, hardly could anybody come to visit the Western Region without passing through the Sanngo area of the city. The worshippers, through the divine inspiration as voiced by Deacon Lawore, then leader of the preaching station, then considered "GATEWAY" BAPTIST CHURCH as the name because it was, and still is the Gateway to Heaven, Paradise, Saviour and salvation as well as, break-through, success, miracles, blessings, redemption and long life and prosperity.`,
   },
-  pioneerWorshippers:{
-    heading:``
-  }
+  pioneerWorshippers: {
+    heading: `The Pioneer Worshippers`,
+    p: `Among the lots of worshippers at the inception of Gateway Baptist Church in 1960 were Pa James Alabi, Madam Towobola Babalola, Iya Ijesa Janet, Madam Emily Lakunbi, Papa Ila Alabi, Pa. Michael Ogunlana, Pa Matthew Adeniran and Pa. Bamidele. Majority of them are now of blessed memory.`,
+  },
 };
 
 export default history;
