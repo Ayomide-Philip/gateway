@@ -45,6 +45,21 @@ const history = {
       `Pa. D.O. Balogun`,
     ],
   },
+  headship: {
+    heading: `Headship and Church Shepards`,
+    p1: `The Lord Jesus Christ is the greatest Shepard of GATEWAY BAPTIST CHURCH, SANNGO-IBADAN, His Church.`,
+    p2: `Revd. Lowo Mamadelo ( then Pastor) was called to take charge as shepherds of the Church. He was until then the Pastor of Baptist Church, Ijebu-Imusin. He was invited through the personal efforts of Pastor Segun Lawoyin, then Agodi Baptist Church, Ibadan, even though the church sent a search committee delegates (Messrs M.O. Ogunnowo, Late A.O Amori and M.O Ajuwon) to locate him in Ijebu-Imusin and to invite him for a chat at the church later, to which he gladly responded and his call to the church was confirmed and thereafter began the Lords work at Gateway Baptist Church, SANNGO-IBADAN, in June 1970. Then, Pastor Lowo Mamadelo later got married and bore children as well as got ordained during his pastoral service in the church. He resigned his appoinment in 1984, after his return from Canada where he had undertaken an in-service course.`,
+    p3: `As an adage says, "cost us whatever it may, we must get right with God", the entire members of the church appointed great men of integrity and spirit-filled among themselves as the Pulpit Committee to continue the good work of evangelism, as follow`,
+    lists: [
+      `Late Deacon A.J Adegun (a.k.a. Baba Ihinrere)- Chairman`,
+      `Mr. J.O Ojesina - Member`,
+      `Late Deacon E.O Alaka - Member`,
+      `Mr. T.O Agboola - Member`,
+      `Late Madam J.A. Ogunjobi - Members`,
+      `Mr. P.O. Oyadipe - Members / Secretary`,
+    ],
+    p4: `In 1984, late Pastor Bisi Irele took the baton of the pastorate of the church shortly after Revd. Lowo Mamadelo departure. In July 1985, the annoitted man of God, Revd. Augustus Adebimpe Alade, came on board of the church pastorate, and has continued till 2012`,
+  },
 };
 
 export default history;
