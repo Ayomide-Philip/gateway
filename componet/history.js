@@ -35,6 +35,16 @@ const history = {
     heading: `The Pioneer Worshippers`,
     p: `Among the lots of worshippers at the inception of Gateway Baptist Church in 1960 were Pa James Alabi, Madam Towobola Babalola, Iya Ijesa Janet, Madam Emily Lakunbi, Papa Ila Alabi, Pa. Michael Ogunlana, Pa Matthew Adeniran and Pa. Bamidele. Majority of them are now of blessed memory.`,
   },
+  churchConstruction: {
+    heading: "Construction the Church Building",
+    p1: `In the year 1969, the entire members of the church decided to enlarge the mud building then used as church. The first Building Committee was inaugurated, having Pa. T.A Aderele as the Chairman, while others members were`,
+    p2: `The younger brother of the Chairman of the Building Committee, Arc. Aderele, of blessed memory, designed the present church structure.`,
+    lists: [
+      `Dr. J.O Ojesina`,
+      `Late Pa. A.O. Amori(a.k.a E ma je o duro) as the Secretary`,
+      `Pa. D.O. Balogun`,
+    ],
+  },
 };
 
 export default history;
