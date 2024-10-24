@@ -17,6 +17,7 @@ import getInvolved from "./componet/getInvolved.js";
 import events from "./componet/events.js";
 import children from "./componet/children.js";
 import mission from "./componet/mission.js";
+import history from "./componet/history.js";
 
 const app = express();
 const port = 3000;
@@ -86,7 +87,10 @@ app.get("/get-involved", (req, res) => {
 
 app.get("/history", (req, res) => {
   req.route.path == "/history" ? (userRoute = "History") : null;
-  res.render("history.ejs", { userRoute: userRoute });
+  res.render("history.ejs", {
+    userRoute: userRoute,
+    history: history,
+  });
 });
 
 app.get("/mission", (req, res) => {
