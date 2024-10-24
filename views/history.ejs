@@ -8,9 +8,11 @@
         <div class="video-overlay">
             <div>
                 <h1 class="display-4">
-                    <%= history.videoBanner.displayHeading%>
+                    <%= history.videoBanner.headingDisplay%>
                 </h1>
-                <p class="lead">Lear more about our church</p>
+                <p class="lead">
+                    <%= history.videoBanner.pLead %>
+                </p>
             </div>
         </div>
     </div>
@@ -18,7 +20,9 @@
     <!-- ========== End  section of video banner ========== -->
     <!-- ========== Start Section of our church history ========== -->
     <div class="container-fluid pt-4 pb-5">
-        <h1 class="display-6" style="text-align: center;">Founding and Establishing the Church.</h1>
+        <h1 class="display-6" style="text-align: center;">
+            <%= history.heading%>
+        </h1>
         <div class="pt-4 ms-3">
             <h2 class="h4">Background Initiatives and Steps:</h2>
             <p>In Obedience to God Almighty Father's directive that all Christians should go into the world and preach
