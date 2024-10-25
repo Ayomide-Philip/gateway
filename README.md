@@ -21,3 +21,35 @@ or
 ```
 npm i
 ```
+
+This command looks at the [package.json file](./package.json) and install all the necessary dependencies, After you can run :
+
+```
+node index.js
+```
+
+to view the backend project on your local system.
+
+The Files are arranged in this way:
+
+```
+    |
+    |
+    ------componet ----- subcomponet ------ videoBanner.js
+    |                |---------- children.js
+    |                |---------- donate.js
+    |                |---------- events.js
+    |                |---------- getInvolved.js
+    |                |---------- history.js
+    |                |---------- home.js
+    |                |---------- mission.js
+    |                |---------- sermon.js
+    |                |---------- service.js
+    |                |---------- teenager.js
+    |
+    ---------public ------------------ images
+    |                   |---------- resources
+    |                   |---------- stylesheet
+    |                   |---------- Teenagers
+    |                   |---------- video
+```
