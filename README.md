@@ -9,3 +9,15 @@ The first thing need to know by any developrt that would be editing this page is
 ```
 git clone https://github.com/Ayomide-Philip/gateway.git
 ```
+
+After downloading it on your localhost, you can run:
+
+```
+npm install
+```
+
+or
+
+```
+npm i
+```
