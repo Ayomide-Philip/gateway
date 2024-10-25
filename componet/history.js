@@ -60,6 +60,13 @@ const history = {
     ],
     p4: `In 1984, late Pastor Bisi Irele took the baton of the pastorate of the church shortly after Revd. Lowo Mamadelo departure. In July 1985, the annoitted man of God, Revd. Augustus Adebimpe Alade, came on board of the church pastorate, and has continued till 2012`,
   },
+  cardSection: {
+    heading: "Download To access our church History Everytime.",
+    card: {
+      title: "History of Gateway Baptist Church",
+      text: "If you want to be able to access the history of our church on your phone at anytime you can down load the church PDF, to get it at your comfort.",
+    },
+  },
 };
 
 export default history;
