@@ -65,6 +65,9 @@ const history = {
     card: {
       title: "History of Gateway Baptist Church",
       text: "If you want to be able to access the history of our church on your phone at anytime you can down load the church PDF, to get it at your comfort.",
+      date: new Date().toUTCString(),
+      imageURL: "history",
+      pdfURL: "GBChistory",
     },
   },
 };
