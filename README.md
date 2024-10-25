@@ -35,7 +35,7 @@ The Files are arranged in this way:
 ```
     |
     |
-    ------componet ----- subcomponet ------ videoBanner.js
+    ------ componet/ ----- subcomponet/ ------ videoBanner.js
     |                |---------- children.js
     |                |---------- donate.js
     |                |---------- events.js
@@ -47,9 +47,25 @@ The Files are arranged in this way:
     |                |---------- service.js
     |                |---------- teenager.js
     |
-    ---------public ------------------ images
-    |                   |---------- resources
-    |                   |---------- stylesheet
-    |                   |---------- Teenagers
-    |                   |---------- video
+    ------ public/ ------------------ images/
+    |                   |---------- resources/
+    |                   |---------- stylesheet/
+    |                   |---------- Teenagers/
+    |                   |---------- video/
+    |
+     ------ views/ ----- partials/ ------------------------ header.ejs
+    |                |---------- children.ejs      |--------footer.ejs
+    |                |---------- donate.ejs
+    |                |---------- events.ejs
+    |                |---------- getInvolved.ejs
+    |                |---------- history.ejs
+    |                |---------- index.ejs
+    |                |---------- mission.ejs
+    |                |---------- sermon.ejs
+    |                |---------- service.ejs
+    |                |---------- teenager.ejs
+    |
+    |------- index.js
+    |
+    |------- package.json
 ```
