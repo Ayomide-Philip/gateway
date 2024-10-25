@@ -126,21 +126,25 @@
     <div class="p-5 bg-body-tertiary d-flex flex-column align-items-center">
         <div class="mb-5">
             <h1 class="display-6 text-center">
-                <%= cardSection.heading %>
+                <%= history.cardSection.heading %>
             </h1>
         </div>
         <div class="card text-center" style="width: 18rem;">
-            <img src="./images/history.jpg" class="card-img-top" alt="History Of Gateway Baptist Church">
+            <img src="./images/<%= history.cardSection.card.imageURL %>.jpg" class="card-img-top"
+                alt="History Of Gateway Baptist Church">
             <div class="card-body">
-                <h5 class="card-title">History of Gateway Baptist Church</h5>
-                <p class="card-text">If you want to be able to access the history of our church on your phone at anytime
-                    you can down load the church PDF, to get it at your comfort.</p>
-                <a href="./resources/GBChistory.pdf" target="_blank" rel="noopener noreferrer"
-                    class="btn btn-primary">Download
+                <h5 class="card-title">
+                    <%= history.cardSection.card.title %>
+                </h5>
+                <p class="card-text">
+                    <%= history.cardSection.card.text %>
+                </p>
+                <a href="./resources/<%= history.cardSection.card.pdfURL %>.pdf" target="_blank"
+                    rel="noopener noreferrer" class="btn btn-primary">Download
                     Now</a>
             </div>
             <div class="card-footer text-body-secondary">
-                2 days ago
+                <%= history.cardSection.card.date %>
             </div>
         </div>
     </div>
